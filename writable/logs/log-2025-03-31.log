@@ -1,0 +1,7 @@
+CRITICAL - 2025-03-31 23:18:24 --> Call to a member function getWhere() on null
+#0 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#1 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#5 {main}

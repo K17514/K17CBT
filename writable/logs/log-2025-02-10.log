@@ -1,0 +1,79 @@
+CRITICAL - 2025-02-10 08:55:56 --> Invalid file: dash.php
+#0 C:\Users\redmibook\Videos\CBT\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dash.php')
+#1 C:\Users\redmibook\Videos\CBT\system\Common.php(1089): CodeIgniter\View\View->render('dash', Array, true)
+#2 C:\Users\redmibook\Videos\CBT\app\Controllers\Home.php(12): view('dash')
+#3 C:\Users\redmibook\Videos\CBT\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\Users\redmibook\Videos\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\redmibook\Videos\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\redmibook\Videos\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\redmibook\Videos\CBT\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#8 {main}
+ERROR - 2025-02-10 10:35:01 --> Column 'level' cannot be null
+ERROR - 2025-02-10 10:35:43 --> Column 'level' cannot be null
+ERROR - 2025-02-10 10:36:36 --> Column 'level' cannot be null
+CRITICAL - 2025-02-10 10:39:25 --> syntax error, unexpected '<'
+#0 C:\Users\redmibook\Videos\CBT\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/login')
+#1 C:\Users\redmibook\Videos\CBT\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/login')
+#2 C:\Users\redmibook\Videos\CBT\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\redmibook\Videos\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\CBT\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+CRITICAL - 2025-02-10 11:24:39 --> Cannot redeclare App\Controllers\Home::register()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-02-10 11:29:30 --> Class 'App\Controllers\PHPMailer' not found
+#0 C:\Users\redmibook\Videos\CBT\system\CodeIgniter.php(832): App\Controllers\Home->forgot_password()
+#1 C:\Users\redmibook\Videos\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\redmibook\Videos\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\redmibook\Videos\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\redmibook\Videos\CBT\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#5 {main}
+CRITICAL - 2025-02-10 11:29:52 --> Class 'PHPMailer\PHPMailer\PHPMailer' not found
+#0 C:\Users\redmibook\Videos\CBT\system\CodeIgniter.php(832): App\Controllers\Home->forgot_password()
+#1 C:\Users\redmibook\Videos\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\redmibook\Videos\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\redmibook\Videos\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\redmibook\Videos\CBT\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#5 {main}
+CRITICAL - 2025-02-10 11:33:21 --> require(vendor/autoload.php): failed to open stream: No such file or directory
+#0 C:\Users\redmibook\Videos\CBT\app\Controllers\Home.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(vendor/...', 'C:\\Users\\redmib...', 8, Array)
+#1 C:\Users\redmibook\Videos\CBT\app\Controllers\Home.php(8): require()
+#2 C:\Users\redmibook\Videos\CBT\system\Router\Router.php(518): include_once('C:\\Users\\redmib...')
+#3 C:\Users\redmibook\Videos\CBT\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/forgot_pas...')
+#4 C:\Users\redmibook\Videos\CBT\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/forgot_pas...')
+#5 C:\Users\redmibook\Videos\CBT\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#6 C:\Users\redmibook\Videos\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\redmibook\Videos\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\redmibook\Videos\CBT\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#9 {main}
+CRITICAL - 2025-02-10 11:34:17 --> Access to undeclared static property: Kint\Kint::$depth_limit
+#0 C:\Users\redmibook\Videos\CBT\system\CodeIgniter.php(186): CodeIgniter\CodeIgniter->initializeKint()
+#1 C:\Users\redmibook\Videos\CBT\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#2 C:\Users\redmibook\Videos\CBT\public\index.php(28): require('C:\\Users\\redmib...')
+#3 C:\Users\redmibook\Videos\CBT\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#4 {main}
+CRITICAL - 2025-02-10 11:34:36 --> Access to undeclared static property: Kint\Kint::$depth_limit
+#0 C:\Users\redmibook\Videos\CBT\system\CodeIgniter.php(186): CodeIgniter\CodeIgniter->initializeKint()
+#1 C:\Users\redmibook\Videos\CBT\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#2 C:\Users\redmibook\Videos\CBT\public\index.php(28): require('C:\\Users\\redmib...')
+#3 C:\Users\redmibook\Videos\CBT\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#4 {main}
+CRITICAL - 2025-02-10 11:34:37 --> Access to undeclared static property: Kint\Kint::$depth_limit
+#0 C:\Users\redmibook\Videos\CBT\system\CodeIgniter.php(186): CodeIgniter\CodeIgniter->initializeKint()
+#1 C:\Users\redmibook\Videos\CBT\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#2 C:\Users\redmibook\Videos\CBT\public\index.php(28): require('C:\\Users\\redmib...')
+#3 C:\Users\redmibook\Videos\CBT\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#4 {main}
+CRITICAL - 2025-02-10 11:34:38 --> Access to undeclared static property: Kint\Kint::$depth_limit
+#0 C:\Users\redmibook\Videos\CBT\system\CodeIgniter.php(186): CodeIgniter\CodeIgniter->initializeKint()
+#1 C:\Users\redmibook\Videos\CBT\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#2 C:\Users\redmibook\Videos\CBT\public\index.php(28): require('C:\\Users\\redmib...')
+#3 C:\Users\redmibook\Videos\CBT\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#4 {main}
+CRITICAL - 2025-02-10 11:34:39 --> Access to undeclared static property: Kint\Kint::$depth_limit
+#0 C:\Users\redmibook\Videos\CBT\system\CodeIgniter.php(186): CodeIgniter\CodeIgniter->initializeKint()
+#1 C:\Users\redmibook\Videos\CBT\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#2 C:\Users\redmibook\Videos\CBT\public\index.php(28): require('C:\\Users\\redmib...')
+#3 C:\Users\redmibook\Videos\CBT\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#4 {main}

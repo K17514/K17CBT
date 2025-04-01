@@ -1,0 +1,242 @@
+ERROR - 2025-03-11 00:35:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?) '21'' at line 2
+ERROR - 2025-03-11 00:39:32 --> Unknown column 'deleted_at' in 'field list'
+ERROR - 2025-03-11 00:47:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?)) '11'' at line 2
+ERROR - 2025-03-11 00:47:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?) '11'' at line 2
+CRITICAL - 2025-03-11 00:50:45 --> array_column() expects parameter 1 to be array, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_column() ...', 'G:\\My Drive\\CBT...', 996, Array)
+#1 G:\My Drive\CBT\app\Controllers\Home.php(996): array_column(NULL, 'id_exam')
+#2 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->deleteCourse('14')
+#3 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#7 {main}
+CRITICAL - 2025-03-11 00:52:16 --> array_column() expects parameter 1 to be array, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_column() ...', 'G:\\My Drive\\CBT...', 996, Array)
+#1 G:\My Drive\CBT\app\Controllers\Home.php(996): array_column(NULL, 'id_exam')
+#2 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->deleteCourse('14')
+#3 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#7 {main}
+CRITICAL - 2025-03-11 00:53:43 --> array_column() expects parameter 1 to be array, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_column() ...', 'G:\\My Drive\\CBT...', 996, Array)
+#1 G:\My Drive\CBT\app\Controllers\Home.php(996): array_column(NULL, 'id_exam')
+#2 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->deleteCourse('14')
+#3 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#7 {main}
+ERROR - 2025-03-11 09:37:20 --> Unknown column 'deleted_at' in 'field list'
+ERROR - 2025-03-11 20:54:04 --> Unknown column 'created_at' in 'field list'
+ERROR - 2025-03-11 21:02:55 --> Unknown column 'created_at' in 'field list'
+ERROR - 2025-03-11 21:05:11 --> Unknown column 'created_at' in 'field list'
+ERROR - 2025-03-11 21:42:44 --> Unknown column 'created_at' in 'field list'
+ERROR - 2025-03-11 21:46:46 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2025-03-11 10:04:07 --> syntax error, unexpected ';', expecting ')'
+#0 G:\My Drive\CBT\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('admin/tampiluse...')
+#1 G:\My Drive\CBT\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('admin/tampiluse...')
+#2 G:\My Drive\CBT\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+CRITICAL - 2025-03-11 19:27:19 --> Request URI segment is out of range: 1
+#0 G:\My Drive\CBT\system\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(1)
+#1 G:\My Drive\CBT\app\Views\menu.php(2): CodeIgniter\HTTP\URI->getSegment(1)
+#2 G:\My Drive\CBT\system\View\View.php(210): include('G:\\My Drive\\CBT...')
+#3 G:\My Drive\CBT\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 G:\My Drive\CBT\system\Common.php(1089): CodeIgniter\View\View->render('menu', Array, true)
+#5 G:\My Drive\CBT\app\Controllers\Home.php(28): view('menu')
+#6 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#7 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#11 {main}
+CRITICAL - 2025-03-11 19:34:53 --> Argument 2 passed to view() must be of the type array, null given, called in G:\My Drive\CBT\app\Controllers\Home.php on line 1268
+#0 G:\My Drive\CBT\app\Controllers\Home.php(1268): view('header', NULL)
+#1 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->edit_attempt('111')
+#2 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+CRITICAL - 2025-03-11 19:36:04 --> Invalid argument supplied for foreach()
+#0 G:\My Drive\CBT\app\Views\edit_attempt.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'G:\\My Drive\\CBT...', 68, Array)
+#1 G:\My Drive\CBT\system\View\View.php(210): include('G:\\My Drive\\CBT...')
+#2 G:\My Drive\CBT\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 G:\My Drive\CBT\system\Common.php(1089): CodeIgniter\View\View->render('edit_attempt', Array, true)
+#4 G:\My Drive\CBT\app\Controllers\Home.php(1270): view('edit_attempt', Array)
+#5 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->edit_attempt('111')
+#6 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#10 {main}
+CRITICAL - 2025-03-11 19:42:34 --> Invalid argument supplied for foreach()
+#0 G:\My Drive\CBT\app\Views\edit_attempt.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'G:\\My Drive\\CBT...', 68, Array)
+#1 G:\My Drive\CBT\system\View\View.php(210): include('G:\\My Drive\\CBT...')
+#2 G:\My Drive\CBT\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 G:\My Drive\CBT\system\Common.php(1089): CodeIgniter\View\View->render('edit_attempt', Array, true)
+#4 G:\My Drive\CBT\app\Controllers\Home.php(1270): view('edit_attempt', Array)
+#5 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->edit_attempt('111')
+#6 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#10 {main}
+CRITICAL - 2025-03-11 20:22:06 --> file_get_contents(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'G:\\My Drive\\CBT...', 56, Array)
+#1 G:\My Drive\CBT\app\Controllers\Home.php(56): file_get_contents('https://www.goo...')
+#2 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#3 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#7 {main}
+CRITICAL - 2025-03-11 20:37:15 --> syntax error, unexpected 'level' (T_STRING), expecting ')'
+#0 G:\My Drive\CBT\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 G:\My Drive\CBT\system\Common.php(1089): CodeIgniter\View\View->render('admin/tampiluse...', Array, true)
+#2 G:\My Drive\CBT\app\Controllers\admin.php(35): view('admin/tampiluse...', Array)
+#3 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Admin->tampiluser()
+#4 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#8 {main}
+CRITICAL - 2025-03-11 20:42:17 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 G:\My Drive\CBT\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/register')
+#1 G:\My Drive\CBT\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/register')
+#2 G:\My Drive\CBT\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+CRITICAL - 2025-03-11 20:48:22 --> Invalid argument supplied for foreach()
+#0 G:\My Drive\CBT\app\Views\edit_attempt.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'G:\\My Drive\\CBT...', 68, Array)
+#1 G:\My Drive\CBT\system\View\View.php(210): include('G:\\My Drive\\CBT...')
+#2 G:\My Drive\CBT\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 G:\My Drive\CBT\system\Common.php(1089): CodeIgniter\View\View->render('edit_attempt', Array, true)
+#4 G:\My Drive\CBT\app\Controllers\Home.php(1274): view('edit_attempt', Array)
+#5 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->edit_attempt('121')
+#6 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#10 {main}
+CRITICAL - 2025-03-11 20:54:41 --> syntax error, unexpected ','
+#0 G:\My Drive\CBT\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/edit_attem...')
+#1 G:\My Drive\CBT\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/edit_attem...')
+#2 G:\My Drive\CBT\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+CRITICAL - 2025-03-11 20:56:43 --> Invalid argument supplied for foreach()
+#0 G:\My Drive\CBT\app\Views\edit_attempt.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'G:\\My Drive\\CBT...', 68, Array)
+#1 G:\My Drive\CBT\system\View\View.php(210): include('G:\\My Drive\\CBT...')
+#2 G:\My Drive\CBT\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 G:\My Drive\CBT\system\Common.php(1089): CodeIgniter\View\View->render('edit_attempt', Array, true)
+#4 G:\My Drive\CBT\app\Controllers\Home.php(1273): view('edit_attempt', Array)
+#5 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->edit_attempt('121')
+#6 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#10 {main}
+CRITICAL - 2025-03-11 21:53:59 --> Invalid argument supplied for foreach()
+#0 G:\My Drive\CBT\app\Views\edit_attempt.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'G:\\My Drive\\CBT...', 68, Array)
+#1 G:\My Drive\CBT\system\View\View.php(210): include('G:\\My Drive\\CBT...')
+#2 G:\My Drive\CBT\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 G:\My Drive\CBT\system\Common.php(1089): CodeIgniter\View\View->render('edit_attempt', Array, true)
+#4 G:\My Drive\CBT\app\Controllers\Home.php(1276): view('edit_attempt', Array)
+#5 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->edit_attempt('111')
+#6 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#10 {main}
+CRITICAL - 2025-03-11 22:40:28 --> Use of undefined constant flase - assumed 'flase' (this will throw an Error in a future version of PHP)
+#0 G:\My Drive\CBT\app\Controllers\Home.php(1262): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'G:\\My Drive\\CBT...', 1262, Array)
+#1 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->edit_attempt('121')
+#2 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+ERROR - 2025-03-11 22:51:20 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2025-03-11 22:51:21 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 H:\My Drive\CBT\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 H:\My Drive\CBT\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 H:\My Drive\CBT\app\Models\M_belajar.php(133): CodeIgniter\Database\BaseBuilder->get()
+#3 H:\My Drive\CBT\app\Controllers\Home.php(20): App\Models\M_belajar->joinw('course', 'user', 'course.id_user ...', Array)
+#4 H:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#5 H:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 H:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 H:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 H:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\CBT...')
+#9 {main}
+CRITICAL - 2025-03-11 22:56:52 --> Undefined constant "App\Controllers\flase"
+#0 H:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->edit_attempt('121')
+#1 H:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\CBT...')
+#5 {main}
+CRITICAL - 2025-03-11 22:57:31 --> Attempt to read property "id_question" on string
+#0 H:\My Drive\CBT\app\Controllers\Home.php(1269): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'H:\\My Drive\\CBT...', 1269)
+#1 H:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->edit_attempt('121')
+#2 H:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 H:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\CBT...')
+#6 {main}
+CRITICAL - 2025-03-11 22:57:56 --> Attempt to read property "id_question" on string
+#0 H:\My Drive\CBT\app\Controllers\Home.php(1269): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'H:\\My Drive\\CBT...', 1269)
+#1 H:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->edit_attempt('121')
+#2 H:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 H:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\CBT...')
+#6 {main}
+CRITICAL - 2025-03-11 23:15:33 --> Attempt to read property "nama_exam" on array
+#0 H:\My Drive\CBT\app\Views\admin\laporan_nilai.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'H:\\My Drive\\CBT...', 24)
+#1 H:\My Drive\CBT\system\View\View.php(210): include('H:\\My Drive\\CBT...')
+#2 H:\My Drive\CBT\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 H:\My Drive\CBT\system\Common.php(1089): CodeIgniter\View\View->render('admin/laporan_n...', Array, true)
+#4 H:\My Drive\CBT\app\Controllers\admin.php(129): view('admin/laporan_n...', Array)
+#5 H:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Admin->laporan_nilai()
+#6 H:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 H:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 H:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 H:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\CBT...')
+#10 {main}
+CRITICAL - 2025-03-11 23:18:15 --> Undefined variable $nama_exam
+#0 H:\My Drive\CBT\app\Views\admin\laporan_nilai.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'H:\\My Drive\\CBT...', 24)
+#1 H:\My Drive\CBT\system\View\View.php(210): include('H:\\My Drive\\CBT...')
+#2 H:\My Drive\CBT\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 H:\My Drive\CBT\system\Common.php(1089): CodeIgniter\View\View->render('admin/laporan_n...', Array, true)
+#4 H:\My Drive\CBT\app\Controllers\admin.php(129): view('admin/laporan_n...', Array)
+#5 H:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Admin->laporan_nilai()
+#6 H:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 H:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 H:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 H:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\CBT...')
+#10 {main}
+ERROR - 2025-03-11 23:35:30 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2025-03-11 23:35:30 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 H:\My Drive\CBT\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 H:\My Drive\CBT\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 H:\My Drive\CBT\app\Models\M_belajar.php(133): CodeIgniter\Database\BaseBuilder->get()
+#3 H:\My Drive\CBT\app\Controllers\Home.php(20): App\Models\M_belajar->joinw('course', 'user', 'course.id_user ...', Array)
+#4 H:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#5 H:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 H:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 H:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 H:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\CBT...')
+#9 {main}

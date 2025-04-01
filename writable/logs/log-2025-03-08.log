@@ -1,0 +1,135 @@
+CRITICAL - 2025-03-08 01:46:10 --> syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) or const (T_CONST)
+#0 G:\My Drive\CBT\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/create')
+#1 G:\My Drive\CBT\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/create')
+#2 G:\My Drive\CBT\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+CRITICAL - 2025-03-08 02:01:19 --> Call to a member function insertID() on null
+#0 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->store()
+#1 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#5 {main}
+CRITICAL - 2025-03-08 03:47:58 --> A non-numeric value encountered
+#0 G:\My Drive\CBT\app\Views\courseview.php(228): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'G:\\My Drive\\CBT...', 228, Array)
+#1 G:\My Drive\CBT\system\View\View.php(210): include('G:\\My Drive\\CBT...')
+#2 G:\My Drive\CBT\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 G:\My Drive\CBT\system\Common.php(1089): CodeIgniter\View\View->render('courseview', Array, true)
+#4 G:\My Drive\CBT\app\Controllers\Home.php(681): view('courseview', Array)
+#5 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->courseview('3')
+#6 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#10 {main}
+ERROR - 2025-03-08 03:48:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?) '1'' at line 3
+CRITICAL - 2025-03-08 03:48:29 --> Call to a member function getRow() on bool
+#0 G:\My Drive\CBT\app\Controllers\Home.php(724): App\Models\M_belajar->getWhere('question', Array)
+#1 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->deleteCourse('1')
+#2 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+CRITICAL - 2025-03-08 03:52:26 --> Invalid argument supplied for foreach()
+#0 G:\My Drive\CBT\app\Controllers\Home.php(721): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'G:\\My Drive\\CBT...', 721, Array)
+#1 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->deleteCourse('1')
+#2 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+CRITICAL - 2025-03-08 08:14:49 --> Request URI segment is out of range: 1
+#0 G:\My Drive\CBT\system\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(1)
+#1 G:\My Drive\CBT\app\Views\menu.php(2): CodeIgniter\HTTP\URI->getSegment(1)
+#2 G:\My Drive\CBT\system\View\View.php(210): include('G:\\My Drive\\CBT...')
+#3 G:\My Drive\CBT\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 G:\My Drive\CBT\system\Common.php(1089): CodeIgniter\View\View->render('menu', Array, true)
+#5 G:\My Drive\CBT\app\Controllers\Home.php(28): view('menu')
+#6 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#7 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#11 {main}
+CRITICAL - 2025-03-08 08:48:14 --> Invalid argument supplied for foreach()
+#0 G:\My Drive\CBT\app\Controllers\Home.php(460): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'G:\\My Drive\\CBT...', 460, Array)
+#1 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->store()
+#2 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+CRITICAL - 2025-03-08 12:01:26 --> Too few arguments to function App\Controllers\Home::listing(), 0 passed in G:\My Drive\CBT\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->listing()
+#1 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#5 {main}
+CRITICAL - 2025-03-08 12:03:04 --> Too few arguments to function App\Controllers\Home::listing(), 0 passed in G:\My Drive\CBT\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->listing()
+#1 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#5 {main}
+ERROR - 2025-03-08 21:29:39 --> Unknown column 'date_submitted' in 'field list'
+ERROR - 2025-03-08 21:45:40 --> Unknown column 'date_submitted' in 'field list'
+ERROR - 2025-03-08 21:45:47 --> Unknown column 'date_submitted' in 'field list'
+ERROR - 2025-03-08 21:45:53 --> Unknown column 'date_submitted' in 'field list'
+ERROR - 2025-03-08 21:45:59 --> Unknown column 'date_submitted' in 'field list'
+ERROR - 2025-03-08 21:46:06 --> Unknown column 'date_submitted' in 'field list'
+ERROR - 2025-03-08 21:46:11 --> Unknown column 'date_submitted' in 'field list'
+ERROR - 2025-03-08 21:46:17 --> Unknown column 'date_submitted' in 'field list'
+ERROR - 2025-03-08 21:46:23 --> Unknown column 'date_submitted' in 'field list'
+ERROR - 2025-03-08 21:46:28 --> Unknown column 'date_submitted' in 'field list'
+ERROR - 2025-03-08 21:46:34 --> Unknown column 'date_submitted' in 'field list'
+ERROR - 2025-03-08 21:46:41 --> Unknown column 'date_submitted' in 'field list'
+ERROR - 2025-03-08 21:46:47 --> Unknown column 'date_submitted' in 'field list'
+ERROR - 2025-03-08 21:46:52 --> Unknown column 'date_submitted' in 'field list'
+ERROR - 2025-03-08 21:46:58 --> Unknown column 'date_submitted' in 'field list'
+ERROR - 2025-03-08 21:47:03 --> Unknown column 'date_submitted' in 'field list'
+ERROR - 2025-03-08 21:47:08 --> Unknown column 'date_submitted' in 'field list'
+ERROR - 2025-03-08 21:47:14 --> Unknown column 'date_submitted' in 'field list'
+ERROR - 2025-03-08 21:47:19 --> Unknown column 'date_submitted' in 'field list'
+ERROR - 2025-03-08 21:47:24 --> Unknown column 'date_submitted' in 'field list'
+ERROR - 2025-03-08 21:47:29 --> Unknown column 'date_submitted' in 'field list'
+ERROR - 2025-03-08 21:47:34 --> Unknown column 'date_submitted' in 'field list'
+ERROR - 2025-03-08 21:47:45 --> Unknown column 'date_submitted' in 'field list'
+ERROR - 2025-03-08 21:47:51 --> Unknown column 'date_submitted' in 'field list'
+ERROR - 2025-03-08 21:47:57 --> Unknown column 'date_submitted' in 'field list'
+ERROR - 2025-03-08 21:48:02 --> Unknown column 'date_submitted' in 'field list'
+ERROR - 2025-03-08 21:48:07 --> Unknown column 'date_submitted' in 'field list'
+ERROR - 2025-03-08 21:48:18 --> Unknown column 'date_submitted' in 'field list'
+ERROR - 2025-03-08 21:48:23 --> Unknown column 'date_submitted' in 'field list'
+ERROR - 2025-03-08 21:48:28 --> Unknown column 'date_submitted' in 'field list'
+ERROR - 2025-03-08 21:48:34 --> Unknown column 'date_submitted' in 'field list'
+ERROR - 2025-03-08 21:48:39 --> Unknown column 'date_submitted' in 'field list'
+ERROR - 2025-03-08 21:48:44 --> Unknown column 'date_submitted' in 'field list'
+ERROR - 2025-03-08 21:48:49 --> Unknown column 'date_submitted' in 'field list'
+ERROR - 2025-03-08 21:48:55 --> Unknown column 'date_submitted' in 'field list'
+ERROR - 2025-03-08 21:49:05 --> Unknown column 'date_submitted' in 'field list'
+ERROR - 2025-03-08 21:49:11 --> Unknown column 'date_submitted' in 'field list'
+ERROR - 2025-03-08 21:49:16 --> Unknown column 'date_submitted' in 'field list'
+ERROR - 2025-03-08 21:49:21 --> Unknown column 'date_submitted' in 'field list'
+ERROR - 2025-03-08 21:49:26 --> Unknown column 'date_submitted' in 'field list'
+ERROR - 2025-03-08 21:49:31 --> Unknown column 'date_submitted' in 'field list'
+ERROR - 2025-03-08 21:49:37 --> Unknown column 'date_submitted' in 'field list'
+ERROR - 2025-03-08 21:49:42 --> Unknown column 'date_submitted' in 'field list'
+ERROR - 2025-03-08 21:49:47 --> Unknown column 'date_submitted' in 'field list'
+ERROR - 2025-03-08 21:49:52 --> Unknown column 'date_submitted' in 'field list'
+ERROR - 2025-03-08 21:49:57 --> Unknown column 'date_submitted' in 'field list'
+ERROR - 2025-03-08 21:50:02 --> Unknown column 'date_submitted' in 'field list'
+ERROR - 2025-03-08 21:50:13 --> Unknown column 'date_submitted' in 'field list'
+ERROR - 2025-03-08 21:50:18 --> Unknown column 'date_submitted' in 'field list'
+ERROR - 2025-03-08 21:50:23 --> Unknown column 'date_submitted' in 'field list'
+ERROR - 2025-03-08 21:50:28 --> Unknown column 'date_submitted' in 'field list'
+ERROR - 2025-03-08 21:50:34 --> Unknown column 'date_submitted' in 'field list'
+ERROR - 2025-03-08 21:50:39 --> Unknown column 'date_submitted' in 'field list'
+ERROR - 2025-03-08 21:50:45 --> Unknown column 'date_submitted' in 'field list'
+ERROR - 2025-03-08 21:50:50 --> Unknown column 'date_submitted' in 'field list'
+ERROR - 2025-03-08 21:50:55 --> Unknown column 'date_submitted' in 'field list'

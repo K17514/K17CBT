@@ -1,0 +1,64 @@
+CRITICAL - 2025-03-24 08:28:18 --> file_get_contents(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'G:\\My Drive\\CBT...', 279, Array)
+#1 G:\My Drive\CBT\app\Models\M_belajar.php(279): file_get_contents('https://api.ipi...')
+#2 G:\My Drive\CBT\app\Controllers\Home.php(88): App\Models\M_belajar->log_activity('4', 'User logged in')
+#3 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#4 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#8 {main}
+CRITICAL - 2025-03-24 08:29:12 --> file_get_contents(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'G:\\My Drive\\CBT...', 279, Array)
+#1 G:\My Drive\CBT\app\Models\M_belajar.php(279): file_get_contents('https://api.ipi...')
+#2 G:\My Drive\CBT\app\Controllers\Home.php(88): App\Models\M_belajar->log_activity('4', 'User logged in')
+#3 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#4 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#8 {main}
+ERROR - 2025-03-24 14:33:54 --> Column 'id_user' cannot be null
+ERROR - 2025-03-24 14:34:26 --> Column 'id_user' cannot be null
+ERROR - 2025-03-24 14:36:44 --> Column 'id_user' cannot be null
+ERROR - 2025-03-24 14:37:33 --> Column 'id_user' cannot be null
+ERROR - 2025-03-24 14:37:50 --> Column 'id_user' cannot be null
+CRITICAL - 2025-03-24 03:20:13 --> Invalid argument supplied for foreach()
+#0 G:\My Drive\CBT\app\Views\exam_result.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'G:\\My Drive\\CBT...', 54, Array)
+#1 G:\My Drive\CBT\system\View\View.php(210): include('G:\\My Drive\\CBT...')
+#2 G:\My Drive\CBT\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 G:\My Drive\CBT\system\Common.php(1089): CodeIgniter\View\View->render('exam_result', Array, true)
+#4 G:\My Drive\CBT\app\Controllers\Home.php(591): view('exam_result', Array)
+#5 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->result('40')
+#6 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#10 {main}
+CRITICAL - 2025-03-24 03:20:40 --> syntax error, unexpected ':'
+#0 G:\My Drive\CBT\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/result/40')
+#1 G:\My Drive\CBT\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/result/40')
+#2 G:\My Drive\CBT\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+CRITICAL - 2025-03-24 03:29:56 --> Call to a member function getWhereOpt() on null
+#0 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->result('40')
+#1 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#5 {main}
+ERROR - 2025-03-24 15:38:55 --> Column 'id_user' cannot be null
+CRITICAL - 2025-03-24 15:52:16 --> file_get_contents(): SSL: An existing connection was forcibly closed by the remote host.
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'G:\\My Drive\\CBT...', 279, Array)
+#1 G:\My Drive\CBT\app\Models\M_belajar.php(279): file_get_contents('https://api.ipi...')
+#2 G:\My Drive\CBT\app\Controllers\Home.php(350): App\Models\M_belajar->log_activity('14', 'User accessed T...')
+#3 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->detail('52')
+#4 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#8 {main}

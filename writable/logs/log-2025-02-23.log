@@ -1,0 +1,309 @@
+CRITICAL - 2025-02-23 02:06:15 --> Invalid argument supplied for foreach()
+#0 C:\Users\redmibook\Videos\CBT\app\Views\exam_result.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\redmib...', 33, Array)
+#1 C:\Users\redmibook\Videos\CBT\system\View\View.php(210): include('C:\\Users\\redmib...')
+#2 C:\Users\redmibook\Videos\CBT\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\redmibook\Videos\CBT\system\Common.php(1089): CodeIgniter\View\View->render('exam_result', Array, true)
+#4 C:\Users\redmibook\Videos\CBT\app\Controllers\Home.php(387): view('exam_result', Array)
+#5 C:\Users\redmibook\Videos\CBT\system\CodeIgniter.php(832): App\Controllers\Home->result('7')
+#6 C:\Users\redmibook\Videos\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\redmibook\Videos\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\redmibook\Videos\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\redmibook\Videos\CBT\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#10 {main}
+CRITICAL - 2025-02-23 02:53:49 --> You must set the database table to be used with your query.
+#0 C:\Users\redmibook\Videos\CBT\app\Models\M_belajar.php(23): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\Users\redmibook\Videos\CBT\app\Controllers\Home.php(381): App\Models\M_belajar->join(NULL, NULL, 'exam_detail.id_...', '10')
+#2 C:\Users\redmibook\Videos\CBT\system\CodeIgniter.php(832): App\Controllers\Home->result('7')
+#3 C:\Users\redmibook\Videos\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\Users\redmibook\Videos\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\redmibook\Videos\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\redmibook\Videos\CBT\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#7 {main}
+CRITICAL - 2025-02-23 02:54:31 --> Invalid argument supplied for foreach()
+#0 C:\Users\redmibook\Videos\CBT\app\Views\exam_result.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\redmib...', 33, Array)
+#1 C:\Users\redmibook\Videos\CBT\system\View\View.php(210): include('C:\\Users\\redmib...')
+#2 C:\Users\redmibook\Videos\CBT\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\redmibook\Videos\CBT\system\Common.php(1089): CodeIgniter\View\View->render('exam_result', Array, true)
+#4 C:\Users\redmibook\Videos\CBT\app\Controllers\Home.php(389): view('exam_result', Array)
+#5 C:\Users\redmibook\Videos\CBT\system\CodeIgniter.php(832): App\Controllers\Home->result('7')
+#6 C:\Users\redmibook\Videos\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\redmibook\Videos\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\redmibook\Videos\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\redmibook\Videos\CBT\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#10 {main}
+CRITICAL - 2025-02-23 02:55:49 --> Invalid argument supplied for foreach()
+#0 C:\Users\redmibook\Videos\CBT\app\Views\exam_result.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\redmib...', 33, Array)
+#1 C:\Users\redmibook\Videos\CBT\system\View\View.php(210): include('C:\\Users\\redmib...')
+#2 C:\Users\redmibook\Videos\CBT\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\redmibook\Videos\CBT\system\Common.php(1089): CodeIgniter\View\View->render('exam_result', Array, true)
+#4 C:\Users\redmibook\Videos\CBT\app\Controllers\Home.php(389): view('exam_result', Array, Array)
+#5 C:\Users\redmibook\Videos\CBT\system\CodeIgniter.php(832): App\Controllers\Home->result('7')
+#6 C:\Users\redmibook\Videos\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\redmibook\Videos\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\redmibook\Videos\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\redmibook\Videos\CBT\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#10 {main}
+CRITICAL - 2025-02-23 02:59:25 --> You must set the database table to be used with your query.
+#0 C:\Users\redmibook\Videos\CBT\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\Users\redmibook\Videos\CBT\system\Model.php(693): CodeIgniter\Model->builder()
+#2 C:\Users\redmibook\Videos\CBT\app\Controllers\Home.php(381): CodeIgniter\Model->__get('get_leaderboard')
+#3 C:\Users\redmibook\Videos\CBT\system\CodeIgniter.php(832): App\Controllers\Home->result('7')
+#4 C:\Users\redmibook\Videos\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\redmibook\Videos\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\redmibook\Videos\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\redmibook\Videos\CBT\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#8 {main}
+CRITICAL - 2025-02-23 03:00:06 --> You must set the database table to be used with your query.
+#0 C:\Users\redmibook\Videos\CBT\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\Users\redmibook\Videos\CBT\system\Model.php(693): CodeIgniter\Model->builder()
+#2 C:\Users\redmibook\Videos\CBT\app\Controllers\Home.php(381): CodeIgniter\Model->__get('get_leaderboard')
+#3 C:\Users\redmibook\Videos\CBT\system\CodeIgniter.php(832): App\Controllers\Home->result('7')
+#4 C:\Users\redmibook\Videos\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\redmibook\Videos\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\redmibook\Videos\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\redmibook\Videos\CBT\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#8 {main}
+CRITICAL - 2025-02-23 03:03:36 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 C:\Users\redmibook\Videos\CBT\app\Controllers\Home.php(381): App\Models\M_belajar->get_leaderboard()
+#1 C:\Users\redmibook\Videos\CBT\system\CodeIgniter.php(832): App\Controllers\Home->result('7')
+#2 C:\Users\redmibook\Videos\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\redmibook\Videos\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\CBT\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+CRITICAL - 2025-02-23 03:05:37 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::order_by()
+#0 C:\Users\redmibook\Videos\CBT\app\Controllers\Home.php(381): App\Models\M_belajar->get_leaderboard()
+#1 C:\Users\redmibook\Videos\CBT\system\CodeIgniter.php(832): App\Controllers\Home->result('7')
+#2 C:\Users\redmibook\Videos\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\redmibook\Videos\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\CBT\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+CRITICAL - 2025-02-23 09:38:09 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 G:\My Drive\CBT\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('admin/tampiluse...')
+#1 G:\My Drive\CBT\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('admin/tampiluse...')
+#2 G:\My Drive\CBT\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+CRITICAL - 2025-02-23 09:38:55 --> Invalid file: tampiluser.php
+#0 G:\My Drive\CBT\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tampiluser.php')
+#1 G:\My Drive\CBT\system\Common.php(1089): CodeIgniter\View\View->render('tampiluser', Array, true)
+#2 G:\My Drive\CBT\app\Controllers\admin.php(30): view('tampiluser', Array)
+#3 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Admin->tampiluser()
+#4 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#8 {main}
+CRITICAL - 2025-02-23 09:40:09 --> Invalid argument supplied for foreach()
+#0 G:\My Drive\CBT\app\Views\admin\tampiluser.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'G:\\My Drive\\CBT...', 36, Array)
+#1 G:\My Drive\CBT\system\View\View.php(210): include('G:\\My Drive\\CBT...')
+#2 G:\My Drive\CBT\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 G:\My Drive\CBT\system\Common.php(1089): CodeIgniter\View\View->render('admin/tampiluse...', Array, true)
+#4 G:\My Drive\CBT\app\Controllers\admin.php(30): view('admin/tampiluse...', Array)
+#5 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Admin->tampiluser()
+#6 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#10 {main}
+CRITICAL - 2025-02-23 09:41:34 --> Argument 2 passed to view() must be of the type array, null given, called in G:\My Drive\CBT\app\Controllers\admin.php on line 57
+#0 G:\My Drive\CBT\app\Controllers\admin.php(57): view('header', NULL)
+#1 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Admin->edit_user('9')
+#2 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+CRITICAL - 2025-02-23 09:43:31 --> Argument 2 passed to view() must be of the type array, null given, called in G:\My Drive\CBT\app\Controllers\admin.php on line 57
+#0 G:\My Drive\CBT\app\Controllers\admin.php(57): view('header', NULL)
+#1 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Admin->edit_user('8')
+#2 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+CRITICAL - 2025-02-23 09:44:04 --> Argument 2 passed to view() must be of the type array, null given, called in G:\My Drive\CBT\app\Controllers\admin.php on line 57
+#0 G:\My Drive\CBT\app\Controllers\admin.php(57): view('header', NULL)
+#1 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Admin->edit_user('8')
+#2 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+CRITICAL - 2025-02-23 09:46:44 --> Argument 2 passed to view() must be of the type array, null given, called in G:\My Drive\CBT\app\Controllers\admin.php on line 57
+#0 G:\My Drive\CBT\app\Controllers\admin.php(57): view('header', NULL)
+#1 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Admin->edit_user('8')
+#2 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+CRITICAL - 2025-02-23 09:50:30 --> Argument 2 passed to view() must be of the type array, null given, called in G:\My Drive\CBT\app\Controllers\admin.php on line 61
+#0 G:\My Drive\CBT\app\Controllers\admin.php(61): view('header', NULL)
+#1 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Admin->edit_user('8')
+#2 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+CRITICAL - 2025-02-23 09:57:05 --> Argument 2 passed to view() must be of the type array, null given, called in G:\My Drive\CBT\app\Controllers\admin.php on line 57
+#0 G:\My Drive\CBT\app\Controllers\admin.php(57): view('header', NULL)
+#1 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Admin->edit_user('8')
+#2 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+CRITICAL - 2025-02-23 19:55:35 --> Too few arguments to function App\Controllers\Home::history(), 0 passed in G:\My Drive\CBT\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->history()
+#1 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#5 {main}
+CRITICAL - 2025-02-23 19:56:12 --> Use of undefined constant created_at - assumed 'created_at' (this will throw an Error in a future version of PHP)
+#0 G:\My Drive\CBT\app\Views\play-history.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'G:\\My Drive\\CBT...', 35, Array)
+#1 G:\My Drive\CBT\system\View\View.php(210): include('G:\\My Drive\\CBT...')
+#2 G:\My Drive\CBT\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 G:\My Drive\CBT\system\Common.php(1089): CodeIgniter\View\View->render('play-history', Array, true)
+#4 G:\My Drive\CBT\app\Controllers\Home.php(545): view('play-history', Array)
+#5 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->history('10')
+#6 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#10 {main}
+CRITICAL - 2025-02-23 20:01:52 --> Too few arguments to function App\Controllers\Home::history(), 0 passed in G:\My Drive\CBT\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->history()
+#1 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#5 {main}
+CRITICAL - 2025-02-23 20:02:43 --> Too few arguments to function App\Controllers\Home::history(), 0 passed in G:\My Drive\CBT\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->history()
+#1 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#5 {main}
+CRITICAL - 2025-02-23 20:03:34 --> Too few arguments to function App\Controllers\Home::history(), 0 passed in G:\My Drive\CBT\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->history()
+#1 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#5 {main}
+CRITICAL - 2025-02-23 20:14:41 --> Cannot redeclare App\Models\M_belajar::join3w()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2025-02-23 20:15:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+ORDER BY `exam_detail`.`created_at` DESC' at line 5
+CRITICAL - 2025-02-23 20:15:31 --> Call to a member function getResult() on bool
+#0 G:\My Drive\CBT\app\Controllers\Home.php(542): App\Models\M_belajar->joinhistory()
+#1 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->history('10')
+#2 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+CRITICAL - 2025-02-23 20:19:49 --> Too few arguments to function App\Controllers\Home::yourexam(), 0 passed in G:\My Drive\CBT\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->yourexam()
+#1 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#5 {main}
+CRITICAL - 2025-02-23 20:20:07 --> Too few arguments to function App\Controllers\Home::yourexam(), 0 passed in G:\My Drive\CBT\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->yourexam()
+#1 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#5 {main}
+CRITICAL - 2025-02-23 20:22:45 --> count(): Parameter must be an array or an object that implements Countable
+#0 G:\My Drive\CBT\app\Views\your-exam.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'G:\\My Drive\\CBT...', 19, Array)
+#1 G:\My Drive\CBT\system\View\View.php(210): include('G:\\My Drive\\CBT...')
+#2 G:\My Drive\CBT\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 G:\My Drive\CBT\system\Common.php(1089): CodeIgniter\View\View->render('your-exam', Array, true)
+#4 G:\My Drive\CBT\app\Controllers\Home.php(560): view('your-exam', Array)
+#5 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->yourexam('10')
+#6 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#10 {main}
+CRITICAL - 2025-02-23 22:09:03 --> Undefined variable $page
+#0 H:\My Drive\CBT\app\Views\your-exam.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'H:\\My Drive\\CBT...', 34)
+#1 H:\My Drive\CBT\system\View\View.php(210): include('H:\\My Drive\\CBT...')
+#2 H:\My Drive\CBT\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 H:\My Drive\CBT\system\Common.php(1089): CodeIgniter\View\View->render('your-exam', Array, true)
+#4 H:\My Drive\CBT\app\Controllers\Home.php(561): view('your-exam', Array)
+#5 H:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->yourexam('10')
+#6 H:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 H:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 H:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 H:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\CBT...')
+#10 {main}
+CRITICAL - 2025-02-23 22:35:41 --> Undefined variable $table4
+#0 H:\My Drive\CBT\app\Models\M_belajar.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'H:\\My Drive\\CBT...', 160)
+#1 H:\My Drive\CBT\app\Controllers\admin.php(88): App\Models\M_belajar->filterpesanan('exam', 'exam_detail', 'user', 'exam_detail.id_...', 'exam_detail.id_...', 'exam_detail.dat...', '2025-01-01T11:3...', '2025-02-28T11:3...')
+#2 H:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Admin->laporan_nilai()
+#3 H:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 H:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 H:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 H:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\CBT...')
+#7 {main}
+CRITICAL - 2025-02-23 22:36:08 --> Class "App\Controllers\TCPDF" not found
+#0 H:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Admin->laporan_nilai()
+#1 H:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 H:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\CBT...')
+#5 {main}
+CRITICAL - 2025-02-23 22:37:43 --> Class "App\Controllers\TCPDF" not found
+#0 H:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Admin->laporan_nilai()
+#1 H:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 H:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\CBT...')
+#5 {main}
+CRITICAL - 2025-02-23 22:45:58 --> Class "App\Controllers\TCPDF" not found
+#0 H:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Admin->laporan_nilai()
+#1 H:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 H:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\CBT...')
+#5 {main}
+CRITICAL - 2025-02-23 22:46:45 --> Class "TCPDF" not found
+#0 H:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Admin->laporan_nilai()
+#1 H:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 H:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\CBT...')
+#5 {main}
+CRITICAL - 2025-02-23 23:12:34 --> Invalid file: laporan_nilai.php
+#0 H:\My Drive\CBT\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('laporan_nilai.p...')
+#1 H:\My Drive\CBT\system\Common.php(1089): CodeIgniter\View\View->render('laporan_nilai', Array, true)
+#2 H:\My Drive\CBT\app\Controllers\admin.php(109): view('laporan_nilai', Array)
+#3 H:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Admin->laporan_nilai()
+#4 H:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 H:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\CBT...')
+#8 {main}
+CRITICAL - 2025-02-23 23:15:19 --> Undefined variable $a
+#0 H:\My Drive\CBT\app\Views\admin\laporan_nilai.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'H:\\My Drive\\CBT...', 33)
+#1 H:\My Drive\CBT\system\View\View.php(210): include('H:\\My Drive\\CBT...')
+#2 H:\My Drive\CBT\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 H:\My Drive\CBT\system\Common.php(1089): CodeIgniter\View\View->render('admin/laporan_n...', Array, true)
+#4 H:\My Drive\CBT\app\Controllers\admin.php(109): view('admin/laporan_n...', Array)
+#5 H:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Admin->laporan_nilai()
+#6 H:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 H:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 H:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 H:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\CBT...')
+#10 {main}

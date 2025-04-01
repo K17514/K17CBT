@@ -1,0 +1,130 @@
+<header class="site-header d-flex flex-column justify-content-center align-items-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-12 text-center">
+                <h2 class="mb-0">Exam You Made</h2>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section class="latest-podcast-section py-3 pb-0">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-12">
+                <ul class="list-group list-unstyled">
+                    <?php foreach ($child as $exam): ?>
+                        <li class="p-3 mb-3">
+                            <div class="custom-block d-flex flex-column position-relative">
+                                <div>
+                                    <h5 class="mb-2 text-uppercase">
+                                        <a href="<?= base_url('home/detail/' . $exam->id_exam) ?>" class="text-decoration-none"><?= ($exam->nama_exam) ?></a>
+                                    </h5>
+                                    <p class="mb-2"><?= ($exam->deskripsi) ?></p>
+                                </div>
+                                <div class="position-absolute bottom-0 end-0 p-2">
+                                    <a href="<?= base_url('home/edit/' . $exam->id_exam) ?>" class="btn btn-warning btn-sm">Edit</a>
+                                    <a href="<?= base_url('home/delete/' . $exam->id_exam) ?>" class="btn btn-danger btn-sm" onclick="return confirm('Are you sure?')">Delete</a>
+                                </div>
+                            </div>
+                        </li>
+
+                    <?php endforeach; ?>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="latest-podcast-section d-flex align-items-center justify-content-center pb-5" id="section_2">
+    <div class="container">
+        <div class="col-lg-12 col-12 mt-5 mb-4 mb-lg-4">
+                <div class="custom-block d-flex flex-column">
+                    
+       <table class="table table-hover datatable">
+    <thead>
+        <tr>
+            <th>No</th>
+            <th>Exam Name</th>
+            <th>Aksi</th>
+        </tr>
+    </thead>
+    <tbody>
+        <?php
+        $ms = 1;
+        foreach ($child as $key => $value) {
+        ?>
+            <tr>
+                <td><?= $ms++ ?></td>
+                <td><?= $value->nama_exam ?></td>
+                <td>
+                    <a href="<?= base_url('home/edit/' . $value->id_exam) ?>" class="btn btn-warning">
+                        <i class="bi bi-pencil-square"></i> Edit
+                    </a>
+                    <a href="<?= base_url('home/deleteexam/' . $value->id_exam) ?>" class="btn btn-danger">
+                        <i class="bi bi-trash"></i> Hapus
+                    </a>
+                    <button class="btn btn-info detail-btn"
+                        data-bs-toggle="modal" 
+                        data-bs-target="#detailModal"
+                        data-exam-name="<?= $value->nama_exam ?>"
+                        data-exam-id="<?= $value->id_exam ?>"
+                        data-exam-desc="<?= $value->deskripsi ?>"
+                        data-exam-category="<?= $value->kategori ?>">
+                        <i class="bi bi-info-circle"></i> Detail
+                    </button>
+                </td>
+            </tr>
+        <?php } ?>
+    </tbody>
+</table>
+
+<!-- Modal for Exam Details -->
+<div class="modal fade" id="detailModal" tabindex="-1" aria-labelledby="detailModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="detailModalLabel">Exam Details</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <table class="table table-bordered">
+                    <tr>
+                        <th>Exam Name</th>
+                        <td id="examName"></td>
+                    </tr>
+                    <tr>
+                        <th>Exam ID</th>
+                        <td id="examId"></td>
+                    </tr>
+                    <tr>
+                        <th>Description</th>
+                        <td id="examDesc"></td>
+                    </tr>
+                    <tr>
+                        <th>Category</th>
+                        <td id="examCategory"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        document.querySelectorAll(".detail-btn").forEach(function (button) {
+            button.addEventListener("click", function () {
+                document.getElementById("examName").textContent = this.getAttribute("data-exam-name");
+                document.getElementById("examId").textContent = this.getAttribute("data-exam-id");
+                document.getElementById("examDesc").textContent = this.getAttribute("data-exam-desc");
+                document.getElementById("examCategory").textContent = this.getAttribute("data-exam-category");
+            });
+        });
+    });
+</script>
+
+</div>
+</div>
+</div>  
+</section>

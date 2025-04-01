@@ -1,0 +1,212 @@
+ERROR - 2025-03-12 07:28:11 --> Unknown column 'created_at' in 'field list'
+ERROR - 2025-03-12 07:29:06 --> Unknown column 'created_at' in 'field list'
+ERROR - 2025-03-12 07:30:56 --> Unknown column 'created_at' in 'field list'
+ERROR - 2025-03-12 08:22:44 --> Unknown column 'created_at' in 'field list'
+ERROR - 2025-03-12 10:52:43 --> Unknown column 'created_at' in 'field list'
+ERROR - 2025-03-12 15:58:25 --> Unknown column 'created_at' in 'field list'
+ERROR - 2025-03-12 15:59:03 --> Unknown column 'created_at' in 'field list'
+ERROR - 2025-03-12 15:59:09 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2025-03-12 04:06:15 --> syntax error, unexpected end of file
+#0 G:\My Drive\CBT\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 G:\My Drive\CBT\system\Common.php(1089): CodeIgniter\View\View->render('admin/deleted_d...', Array, true)
+#2 G:\My Drive\CBT\app\Controllers\admin.php(146): view('admin/deleted_d...', Array)
+#3 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Admin->deleted_data()
+#4 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#8 {main}
+CRITICAL - 2025-03-12 04:06:16 --> syntax error, unexpected end of file
+#0 G:\My Drive\CBT\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 G:\My Drive\CBT\system\Common.php(1089): CodeIgniter\View\View->render('admin/deleted_d...', Array, true)
+#2 G:\My Drive\CBT\app\Controllers\admin.php(146): view('admin/deleted_d...', Array)
+#3 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Admin->deleted_data()
+#4 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#8 {main}
+CRITICAL - 2025-03-12 04:06:17 --> syntax error, unexpected end of file
+#0 G:\My Drive\CBT\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 G:\My Drive\CBT\system\Common.php(1089): CodeIgniter\View\View->render('admin/deleted_d...', Array, true)
+#2 G:\My Drive\CBT\app\Controllers\admin.php(146): view('admin/deleted_d...', Array)
+#3 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Admin->deleted_data()
+#4 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#8 {main}
+CRITICAL - 2025-03-12 04:06:18 --> syntax error, unexpected end of file
+#0 G:\My Drive\CBT\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 G:\My Drive\CBT\system\Common.php(1089): CodeIgniter\View\View->render('admin/deleted_d...', Array, true)
+#2 G:\My Drive\CBT\app\Controllers\admin.php(146): view('admin/deleted_d...', Array)
+#3 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Admin->deleted_data()
+#4 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#8 {main}
+CRITICAL - 2025-03-12 04:07:54 --> syntax error, unexpected end of file
+#0 G:\My Drive\CBT\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 G:\My Drive\CBT\system\Common.php(1089): CodeIgniter\View\View->render('admin/deleted_d...', Array, true)
+#2 G:\My Drive\CBT\app\Controllers\admin.php(146): view('admin/deleted_d...', Array)
+#3 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Admin->deleted_data()
+#4 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#8 {main}
+CRITICAL - 2025-03-12 04:11:18 --> syntax error, unexpected end of file
+#0 G:\My Drive\CBT\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 G:\My Drive\CBT\system\Common.php(1089): CodeIgniter\View\View->render('admin/deleted_d...', Array, true)
+#2 G:\My Drive\CBT\app\Controllers\admin.php(146): view('admin/deleted_d...', Array)
+#3 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Admin->deleted_data()
+#4 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#8 {main}
+CRITICAL - 2025-03-12 04:13:20 --> syntax error, unexpected end of file
+#0 G:\My Drive\CBT\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 G:\My Drive\CBT\system\Common.php(1089): CodeIgniter\View\View->render('admin/deleted_d...', Array, true)
+#2 G:\My Drive\CBT\app\Controllers\admin.php(146): view('admin/deleted_d...', Array)
+#3 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Admin->deleted_data()
+#4 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#8 {main}
+CRITICAL - 2025-03-12 04:13:45 --> syntax error, unexpected end of file
+#0 G:\My Drive\CBT\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 G:\My Drive\CBT\system\Common.php(1089): CodeIgniter\View\View->render('admin/deleted_d...', Array, true)
+#2 G:\My Drive\CBT\app\Controllers\admin.php(146): view('admin/deleted_d...', Array)
+#3 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Admin->deleted_data()
+#4 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#8 {main}
+CRITICAL - 2025-03-12 04:31:29 --> syntax error, unexpected ';', expecting ')'
+#0 G:\My Drive\CBT\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/index')
+#1 G:\My Drive\CBT\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/index')
+#2 G:\My Drive\CBT\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+CRITICAL - 2025-03-12 04:44:21 --> Cannot use object of type stdClass as array
+#0 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Admin->laporan_nilai()
+#1 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#5 {main}
+CRITICAL - 2025-03-12 05:12:00 --> syntax error, unexpected ';', expecting ')'
+#0 G:\My Drive\CBT\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/detail/29')
+#1 G:\My Drive\CBT\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/detail/29')
+#2 G:\My Drive\CBT\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+CRITICAL - 2025-03-12 05:18:51 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, array given, called in G:\My Drive\CBT\app\Models\M_belajar.php on line 124
+#0 G:\My Drive\CBT\app\Models\M_belajar.php(124): CodeIgniter\Database\BaseBuilder->orderBy(Array, 'desc')
+#1 G:\My Drive\CBT\app\Controllers\Home.php(1271): App\Models\M_belajar->joinwc('log_activity', 'user', 'log_activity.id...', 'id_log', Array, 'log_activity.id...')
+#2 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->user_log_activity()
+#3 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#7 {main}
+CRITICAL - 2025-03-12 05:20:05 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, array given, called in G:\My Drive\CBT\app\Models\M_belajar.php on line 124
+#0 G:\My Drive\CBT\app\Models\M_belajar.php(124): CodeIgniter\Database\BaseBuilder->orderBy(Array, 'desc')
+#1 G:\My Drive\CBT\app\Controllers\Home.php(1266): App\Models\M_belajar->joinwc('log_activity', 'user', 'log_activity.id...', 'id_log', Array, Array)
+#2 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->user_log_activity()
+#3 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#7 {main}
+CRITICAL - 2025-03-12 05:20:20 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, array given, called in G:\My Drive\CBT\app\Models\M_belajar.php on line 124
+#0 G:\My Drive\CBT\app\Models\M_belajar.php(124): CodeIgniter\Database\BaseBuilder->orderBy(Array, 'desc')
+#1 G:\My Drive\CBT\app\Controllers\Home.php(1270): App\Models\M_belajar->joinwc('log_activity', 'user', 'log_activity.id...', 'id_log', Array, 'id_user')
+#2 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->user_log_activity()
+#3 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#7 {main}
+CRITICAL - 2025-03-12 05:21:22 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, array given, called in G:\My Drive\CBT\app\Models\M_belajar.php on line 140
+#0 G:\My Drive\CBT\app\Models\M_belajar.php(140): CodeIgniter\Database\BaseBuilder->orderBy(Array, 'desc')
+#1 G:\My Drive\CBT\app\Controllers\Home.php(1270): App\Models\M_belajar->joinwall('log_activity', 'user', 'log_activity.id...', 'id_log', Array, 'id_user')
+#2 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->user_log_activity()
+#3 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#7 {main}
+CRITICAL - 2025-03-12 05:22:52 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, array given, called in G:\My Drive\CBT\app\Models\M_belajar.php on line 140
+#0 G:\My Drive\CBT\app\Models\M_belajar.php(140): CodeIgniter\Database\BaseBuilder->orderBy(Array, 'desc')
+#1 G:\My Drive\CBT\app\Controllers\Home.php(1270): App\Models\M_belajar->joinwall('log_activity', 'user', 'log_activity.id...', 'id_log', Array, 'id_log')
+#2 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->user_log_activity()
+#3 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#7 {main}
+ERROR - 2025-03-12 17:24:57 --> Unknown column 'created_at' in 'field list'
+ERROR - 2025-03-12 17:26:28 --> Unknown column 'created_at' in 'field list'
+ERROR - 2025-03-12 17:27:49 --> Unknown column 'created_at' in 'field list'
+ERROR - 2025-03-12 17:28:51 --> Unknown column 'created_at' in 'field list'
+ERROR - 2025-03-12 20:03:51 --> Unknown column 'created_at' in 'field list'
+ERROR - 2025-03-12 20:37:22 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2025-03-12 08:37:32 --> syntax error, unexpected end of file
+#0 G:\My Drive\CBT\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 G:\My Drive\CBT\system\Common.php(1089): CodeIgniter\View\View->render('admin/deleted_d...', Array, true)
+#2 G:\My Drive\CBT\app\Controllers\admin.php(180): view('admin/deleted_d...', Array)
+#3 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Admin->deleted_data()
+#4 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#8 {main}
+ERROR - 2025-03-12 23:20:18 --> Unknown column 'created_at' in 'field list'
+ERROR - 2025-03-12 23:22:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?) '30'' at line 2
+ERROR - 2025-03-12 23:23:12 --> Unknown column 'created_at' in 'field list'
+ERROR - 2025-03-12 23:23:54 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2025-03-12 11:24:45 --> Call to a member function table() on null
+#0 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Admin->kill()
+#1 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#5 {main}
+CRITICAL - 2025-03-12 11:36:08 --> Call to a member function table() on null
+#0 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Admin->kill()
+#1 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#5 {main}
+CRITICAL - 2025-03-12 11:39:17 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getPrimaryKey()
+#0 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Admin->kill()
+#1 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#5 {main}
+CRITICAL - 2025-03-12 11:51:53 --> syntax error, unexpected '.'
+#0 G:\My Drive\CBT\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('admin/deleted_d...')
+#1 G:\My Drive\CBT\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('admin/deleted_d...')
+#2 G:\My Drive\CBT\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+CRITICAL - 2025-03-12 19:23:01 --> Call to a member function input() on null
+#0 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->store()
+#1 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#5 {main}

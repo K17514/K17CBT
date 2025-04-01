@@ -1,0 +1,24 @@
+CRITICAL - 2025-02-24 22:05:49 --> Attempt to read property "nama_exam" on array
+#0 H:\My Drive\CBT\app\Views\admin\laporan_nilai.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'H:\\My Drive\\CBT...', 30)
+#1 H:\My Drive\CBT\system\View\View.php(210): include('H:\\My Drive\\CBT...')
+#2 H:\My Drive\CBT\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 H:\My Drive\CBT\system\Common.php(1089): CodeIgniter\View\View->render('admin/laporan_n...', Array, true)
+#4 H:\My Drive\CBT\app\Controllers\admin.php(110): view('admin/laporan_n...', Array)
+#5 H:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Admin->laporan_nilai()
+#6 H:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 H:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 H:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 H:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\CBT...')
+#10 {main}
+CRITICAL - 2025-02-24 22:12:05 --> Attempt to read property "nama_exam" on array
+#0 H:\My Drive\CBT\app\Views\admin\laporan_nilai.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'H:\\My Drive\\CBT...', 30)
+#1 H:\My Drive\CBT\system\View\View.php(210): include('H:\\My Drive\\CBT...')
+#2 H:\My Drive\CBT\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 H:\My Drive\CBT\system\Common.php(1089): CodeIgniter\View\View->render('admin/laporan_n...', Array, true)
+#4 H:\My Drive\CBT\app\Controllers\admin.php(110): view('admin/laporan_n...', Array)
+#5 H:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Admin->laporan_nilai()
+#6 H:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 H:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 H:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 H:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\CBT...')
+#10 {main}

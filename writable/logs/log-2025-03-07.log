@@ -1,0 +1,315 @@
+CRITICAL - 2025-03-07 04:38:41 --> count(): Parameter must be an array or an object that implements Countable
+#0 G:\My Drive\CBT\app\Views\courseview.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'G:\\My Drive\\CBT...', 19, Array)
+#1 G:\My Drive\CBT\system\View\View.php(210): include('G:\\My Drive\\CBT...')
+#2 G:\My Drive\CBT\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 G:\My Drive\CBT\system\Common.php(1089): CodeIgniter\View\View->render('courseview', Array, true)
+#4 G:\My Drive\CBT\app\Controllers\Home.php(652): view('courseview', Array)
+#5 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->courseview()
+#6 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#10 {main}
+CRITICAL - 2025-03-07 04:39:21 --> count(): Parameter must be an array or an object that implements Countable
+#0 G:\My Drive\CBT\app\Views\courseview.php(158): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'G:\\My Drive\\CBT...', 158, Array)
+#1 G:\My Drive\CBT\system\View\View.php(210): include('G:\\My Drive\\CBT...')
+#2 G:\My Drive\CBT\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 G:\My Drive\CBT\system\Common.php(1089): CodeIgniter\View\View->render('courseview', Array, true)
+#4 G:\My Drive\CBT\app\Controllers\Home.php(652): view('courseview', Array)
+#5 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->courseview()
+#6 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#10 {main}
+ERROR - 2025-03-07 05:09:54 --> Unknown column 'if_course' in 'order clause'
+CRITICAL - 2025-03-07 05:09:54 --> Call to a member function getResult() on bool
+#0 G:\My Drive\CBT\app\Controllers\Home.php(650): App\Models\M_belajar->tampil('course', 'if_course')
+#1 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->courseview()
+#2 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+CRITICAL - 2025-03-07 05:25:08 --> Argument 2 passed to view() must be of the type array, null given, called in G:\My Drive\CBT\app\Controllers\Home.php on line 663
+#0 G:\My Drive\CBT\app\Controllers\Home.php(663): view('addcourse', NULL)
+#1 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->addcourse()
+#2 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+ERROR - 2025-03-07 05:52:42 --> Unknown column 'course.id_course' in 'where clause'
+CRITICAL - 2025-03-07 05:52:42 --> Call to a member function getResult() on bool
+#0 G:\My Drive\CBT\app\Controllers\Home.php(283): App\Models\M_belajar->joinwcount2('exam', 'question', 'question.id_exa...', Array, 'exam.id_exam')
+#1 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->listing('1')
+#2 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+ERROR - 2025-03-07 06:13:59 --> Unknown column 'course.id_course' in 'where clause'
+CRITICAL - 2025-03-07 06:13:59 --> Call to a member function getResult() on bool
+#0 G:\My Drive\CBT\app\Controllers\Home.php(284): App\Models\M_belajar->joinwcount2('exam', 'question', 'question.id_exa...', Array, 'exam.id_exam')
+#1 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->listing('2')
+#2 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+ERROR - 2025-03-07 06:18:37 --> Unknown column 'exam.id_question' in 'field list'
+CRITICAL - 2025-03-07 06:18:37 --> Call to a member function getResult() on bool
+#0 G:\My Drive\CBT\app\Controllers\Home.php(284): App\Models\M_belajar->joinwcount2('course', 'exam', 'question', 'course.id_cours...', 'question.id_exa...', Array, 'exam.id_exam')
+#1 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->listing('2')
+#2 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+ERROR - 2025-03-07 06:19:08 --> Unknown column 'exam.id_question' in 'field list'
+CRITICAL - 2025-03-07 06:19:08 --> Call to a member function getResult() on bool
+#0 G:\My Drive\CBT\app\Controllers\Home.php(284): App\Models\M_belajar->joinwcount2('course', 'exam', 'question', 'course.id_cours...', 'question.id_exa...', Array, 'exam.id_exam')
+#1 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->listing('2')
+#2 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+ERROR - 2025-03-07 06:19:50 --> Unknown column 'exam.id_question' in 'field list'
+CRITICAL - 2025-03-07 06:19:50 --> Call to a member function getResult() on bool
+#0 G:\My Drive\CBT\app\Controllers\Home.php(284): App\Models\M_belajar->joinwcount2('course', 'exam', 'question', 'course.id_cours...', 'exam.id_exam = ...', Array, 'exam.id_exam')
+#1 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->listing('2')
+#2 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+ERROR - 2025-03-07 06:20:28 --> Unknown column 'exam.id_question' in 'field list'
+CRITICAL - 2025-03-07 06:20:28 --> Call to a member function getResult() on bool
+#0 G:\My Drive\CBT\app\Controllers\Home.php(284): App\Models\M_belajar->joinwcount2('course', 'exam', 'question', 'course.id_cours...', 'exam.id_exam = ...', Array, 'exam.id_exam')
+#1 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->listing('2')
+#2 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+CRITICAL - 2025-03-07 06:55:42 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'
+#0 G:\My Drive\CBT\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/listing/2')
+#1 G:\My Drive\CBT\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/listing/2')
+#2 G:\My Drive\CBT\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+CRITICAL - 2025-03-07 06:56:08 --> Illegal string offset 'id_course'
+#0 G:\My Drive\CBT\app\Controllers\Home.php(283): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'G:\\My Drive\\CBT...', 283, Array)
+#1 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->listing('2')
+#2 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+CRITICAL - 2025-03-07 06:56:23 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'
+#0 G:\My Drive\CBT\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/listing/2')
+#1 G:\My Drive\CBT\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/listing/2')
+#2 G:\My Drive\CBT\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+ERROR - 2025-03-07 06:56:47 --> Column 'id_user' in on clause is ambiguous
+CRITICAL - 2025-03-07 06:56:47 --> Call to a member function getRow() on bool
+#0 G:\My Drive\CBT\app\Controllers\Home.php(283): App\Models\M_belajar->getWherejoin('course', 'user', 'course,id_user=...', Array)
+#1 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->listing('2')
+#2 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+ERROR - 2025-03-07 07:01:34 --> Unknown column 'exam.id_course' in 'on clause'
+CRITICAL - 2025-03-07 07:01:34 --> Call to a member function getRow() on bool
+#0 G:\My Drive\CBT\app\Controllers\Home.php(283): App\Models\M_belajar->joinw('course', 'user', 'course.id_cours...', Array)
+#1 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->listing('2')
+#2 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+ERROR - 2025-03-07 07:02:23 --> Unknown column 'question.id_exam' in 'on clause'
+CRITICAL - 2025-03-07 07:02:23 --> Call to a member function getResult() on bool
+#0 G:\My Drive\CBT\app\Controllers\Home.php(285): App\Models\M_belajar->joinwcount2('course', 'exam', 'question', 'exam.id_exam = ...', 'course.id_user=...', Array, 'exam.id_exam')
+#1 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->listing('2')
+#2 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+ERROR - 2025-03-07 07:03:17 --> Unknown column 'question.id_exam' in 'on clause'
+CRITICAL - 2025-03-07 07:03:18 --> Call to a member function getResult() on bool
+#0 G:\My Drive\CBT\app\Controllers\Home.php(285): App\Models\M_belajar->joinwcount2('course', 'exam', 'question', 'exam.id_exam = ...', 'course.id_exam=...', Array, 'exam.id_exam')
+#1 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->listing('2')
+#2 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+ERROR - 2025-03-07 07:05:26 --> Unknown column 'exam.nama_course' in 'field list'
+CRITICAL - 2025-03-07 07:05:26 --> Call to a member function getResult() on bool
+#0 G:\My Drive\CBT\app\Controllers\Home.php(285): App\Models\M_belajar->joinwcount2('exam', 'course', 'question', 'course.id_exam=...', 'exam.id_exam = ...', Array, 'exam.id_exam')
+#1 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->listing('2')
+#2 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+ERROR - 2025-03-07 07:05:53 --> Unknown column 'exam.nama_course' in 'field list'
+CRITICAL - 2025-03-07 07:05:53 --> Call to a member function getResult() on bool
+#0 G:\My Drive\CBT\app\Controllers\Home.php(285): App\Models\M_belajar->joinwcount2('exam', 'course', 'question', 'course.id_cours...', 'exam.id_exam = ...', Array, 'exam.id_exam')
+#1 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->listing('2')
+#2 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+ERROR - 2025-03-07 07:06:26 --> Unknown column 'exam.nama_course' in 'field list'
+CRITICAL - 2025-03-07 07:06:26 --> Call to a member function getResult() on bool
+#0 G:\My Drive\CBT\app\Controllers\Home.php(285): App\Models\M_belajar->joinwcount2('exam', 'course', 'question', 'course.id_cours...', 'exam.id_exam = ...', Array, 'exam.id_exam')
+#1 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->listing('2')
+#2 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+CRITICAL - 2025-03-07 07:07:20 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 G:\My Drive\CBT\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('G:\\My Drive\\CBT...')
+#1 G:\My Drive\CBT\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_be...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_be...')
+#3 G:\My Drive\CBT\app\Controllers\Home.php(14): spl_autoload_call('App\\Models\\M_be...')
+#4 G:\My Drive\CBT\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#5 G:\My Drive\CBT\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#9 {main}
+CRITICAL - 2025-03-07 07:13:30 --> array_filter() expects parameter 1 to be array, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_filter() ...', 'G:\\My Drive\\CBT...', 13, Array)
+#1 G:\My Drive\CBT\app\Views\courseview.php(13): array_filter(NULL, Object(Closure))
+#2 G:\My Drive\CBT\system\View\View.php(210): include('G:\\My Drive\\CBT...')
+#3 G:\My Drive\CBT\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 G:\My Drive\CBT\system\Common.php(1089): CodeIgniter\View\View->render('courseview', Array, true)
+#5 G:\My Drive\CBT\app\Controllers\Home.php(660): view('courseview', Array)
+#6 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->courseview()
+#7 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#11 {main}
+CRITICAL - 2025-03-07 07:15:25 --> array_filter() expects parameter 1 to be array, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_filter() ...', 'G:\\My Drive\\CBT...', 13, Array)
+#1 G:\My Drive\CBT\app\Views\courseview.php(13): array_filter(Object(stdClass), Object(Closure))
+#2 G:\My Drive\CBT\system\View\View.php(210): include('G:\\My Drive\\CBT...')
+#3 G:\My Drive\CBT\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 G:\My Drive\CBT\system\Common.php(1089): CodeIgniter\View\View->render('courseview', Array, true)
+#5 G:\My Drive\CBT\app\Controllers\Home.php(661): view('courseview', Array)
+#6 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->courseview()
+#7 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#11 {main}
+CRITICAL - 2025-03-07 07:15:52 --> array_filter() expects parameter 1 to be array, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_filter() ...', 'G:\\My Drive\\CBT...', 13, Array)
+#1 G:\My Drive\CBT\app\Views\courseview.php(13): array_filter(NULL, Object(Closure))
+#2 G:\My Drive\CBT\system\View\View.php(210): include('G:\\My Drive\\CBT...')
+#3 G:\My Drive\CBT\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 G:\My Drive\CBT\system\Common.php(1089): CodeIgniter\View\View->render('courseview', Array, true)
+#5 G:\My Drive\CBT\app\Controllers\Home.php(661): view('courseview', Array)
+#6 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->courseview()
+#7 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#11 {main}
+CRITICAL - 2025-03-07 07:18:06 --> array_filter() expects parameter 1 to be array, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_filter() ...', 'G:\\My Drive\\CBT...', 13, Array)
+#1 G:\My Drive\CBT\app\Views\courseview.php(13): array_filter(NULL, Object(Closure))
+#2 G:\My Drive\CBT\system\View\View.php(210): include('G:\\My Drive\\CBT...')
+#3 G:\My Drive\CBT\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 G:\My Drive\CBT\system\Common.php(1089): CodeIgniter\View\View->render('courseview', Array, true)
+#5 G:\My Drive\CBT\app\Controllers\Home.php(661): view('courseview', Array)
+#6 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->courseview()
+#7 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#11 {main}
+CRITICAL - 2025-03-07 07:18:42 --> array_filter() expects parameter 1 to be array, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_filter() ...', 'G:\\My Drive\\CBT...', 13, Array)
+#1 G:\My Drive\CBT\app\Views\courseview.php(13): array_filter(Object(stdClass), Object(Closure))
+#2 G:\My Drive\CBT\system\View\View.php(210): include('G:\\My Drive\\CBT...')
+#3 G:\My Drive\CBT\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 G:\My Drive\CBT\system\Common.php(1089): CodeIgniter\View\View->render('courseview', Array, true)
+#5 G:\My Drive\CBT\app\Controllers\Home.php(662): view('courseview', Array)
+#6 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->courseview()
+#7 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#11 {main}
+CRITICAL - 2025-03-07 07:19:18 --> array_filter() expects parameter 1 to be array, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_filter() ...', 'G:\\My Drive\\CBT...', 13, Array)
+#1 G:\My Drive\CBT\app\Views\courseview.php(13): array_filter(Object(stdClass), Object(Closure))
+#2 G:\My Drive\CBT\system\View\View.php(210): include('G:\\My Drive\\CBT...')
+#3 G:\My Drive\CBT\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 G:\My Drive\CBT\system\Common.php(1089): CodeIgniter\View\View->render('courseview', Array, true)
+#5 G:\My Drive\CBT\app\Controllers\Home.php(662): view('courseview', Array)
+#6 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->courseview()
+#7 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#11 {main}
+CRITICAL - 2025-03-07 09:52:48 --> Too few arguments to function App\Models\M_belajar::join(), 3 passed in G:\My Drive\CBT\app\Controllers\Home.php on line 19 and exactly 4 expected
+#0 G:\My Drive\CBT\app\Controllers\Home.php(19): App\Models\M_belajar->join('course', 'user', 'course.id_user=...')
+#1 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+CRITICAL - 2025-03-07 10:05:23 --> Call to a member function query() on null
+#0 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->courseview('3')
+#1 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#5 {main}
+CRITICAL - 2025-03-07 10:07:43 --> count(): Parameter must be an array or an object that implements Countable
+#0 G:\My Drive\CBT\app\Views\courseview.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'G:\\My Drive\\CBT...', 19, Array)
+#1 G:\My Drive\CBT\system\View\View.php(210): include('G:\\My Drive\\CBT...')
+#2 G:\My Drive\CBT\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 G:\My Drive\CBT\system\Common.php(1089): CodeIgniter\View\View->render('courseview', Array, true)
+#4 G:\My Drive\CBT\app\Controllers\Home.php(673): view('courseview', Array)
+#5 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->courseview('3')
+#6 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#10 {main}
+ERROR - 2025-03-07 21:59:11 --> Column 'kategori' cannot be null
+CRITICAL - 2025-03-07 22:22:30 --> syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) or const (T_CONST)
+#0 G:\My Drive\CBT\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/create')
+#1 G:\My Drive\CBT\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/create')
+#2 G:\My Drive\CBT\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+CRITICAL - 2025-03-07 22:22:41 --> syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) or const (T_CONST)
+#0 G:\My Drive\CBT\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/index')
+#1 G:\My Drive\CBT\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/index')
+#2 G:\My Drive\CBT\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}

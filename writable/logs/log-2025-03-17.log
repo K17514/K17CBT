@@ -1,0 +1,432 @@
+ERROR - 2025-03-17 00:08:09 --> Column 'id_user' cannot be null
+ERROR - 2025-03-17 00:17:35 --> Column 'id_user' cannot be null
+ERROR - 2025-03-17 00:19:33 --> Column 'id_user' cannot be null
+ERROR - 2025-03-17 00:19:47 --> Column 'id_user' cannot be null
+CRITICAL - 2025-03-17 00:19:48 --> Invalid file: settings.php
+#0 G:\My Drive\CBT\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('settings.php')
+#1 G:\My Drive\CBT\system\Common.php(1089): CodeIgniter\View\View->render('settings', Array, true)
+#2 G:\My Drive\CBT\app\Controllers\admin.php(31): view('settings')
+#3 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Admin->settings()
+#4 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#8 {main}
+ERROR - 2025-03-17 00:20:05 --> Column 'id_user' cannot be null
+ERROR - 2025-03-17 00:20:53 --> Column 'id_user' cannot be null
+ERROR - 2025-03-17 00:22:38 --> Column 'id_user' cannot be null
+ERROR - 2025-03-17 00:22:57 --> Column 'id_user' cannot be null
+ERROR - 2025-03-17 00:24:30 --> Column 'id_user' cannot be null
+ERROR - 2025-03-17 00:24:41 --> Column 'id_user' cannot be null
+ERROR - 2025-03-17 00:25:27 --> Column 'id_user' cannot be null
+ERROR - 2025-03-17 00:25:48 --> Column 'id_user' cannot be null
+ERROR - 2025-03-17 00:26:03 --> Column 'id_user' cannot be null
+ERROR - 2025-03-17 00:26:21 --> Column 'id_user' cannot be null
+ERROR - 2025-03-17 00:33:00 --> Column 'id_user' cannot be null
+CRITICAL - 2025-03-17 00:33:00 --> syntax error, unexpected ')', expecting ';' or ','
+#0 G:\My Drive\CBT\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 G:\My Drive\CBT\system\Common.php(1089): CodeIgniter\View\View->render('admin/settings', Array, true)
+#2 G:\My Drive\CBT\app\Controllers\admin.php(32): view('admin/settings', Array)
+#3 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Admin->settings()
+#4 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#8 {main}
+ERROR - 2025-03-17 00:33:15 --> Column 'id_user' cannot be null
+ERROR - 2025-03-17 00:33:44 --> Column 'id_user' cannot be null
+ERROR - 2025-03-17 00:34:11 --> Column 'id_user' cannot be null
+ERROR - 2025-03-17 00:35:46 --> Column 'id_user' cannot be null
+ERROR - 2025-03-17 00:38:04 --> Column 'id_user' cannot be null
+ERROR - 2025-03-17 00:38:33 --> Column 'id_user' cannot be null
+ERROR - 2025-03-17 00:39:26 --> Column 'id_user' cannot be null
+ERROR - 2025-03-17 00:40:48 --> Column 'id_user' cannot be null
+ERROR - 2025-03-17 00:41:15 --> Column 'id_user' cannot be null
+ERROR - 2025-03-17 00:45:06 --> Column 'id_user' cannot be null
+ERROR - 2025-03-17 00:46:17 --> Column 'id_user' cannot be null
+ERROR - 2025-03-17 00:47:38 --> Column 'id_user' cannot be null
+ERROR - 2025-03-17 00:51:19 --> Column 'id_user' cannot be null
+ERROR - 2025-03-17 00:51:58 --> Column 'id_user' cannot be null
+ERROR - 2025-03-17 00:52:27 --> Column 'id_user' cannot be null
+ERROR - 2025-03-17 00:52:41 --> Column 'id_user' cannot be null
+ERROR - 2025-03-17 00:52:51 --> Column 'id_user' cannot be null
+ERROR - 2025-03-17 00:53:06 --> Column 'id_user' cannot be null
+ERROR - 2025-03-17 00:54:18 --> Column 'id_user' cannot be null
+ERROR - 2025-03-17 00:55:06 --> Column 'id_user' cannot be null
+ERROR - 2025-03-17 08:16:09 --> Column 'id_user' cannot be null
+ERROR - 2025-03-17 08:17:51 --> Column 'id_user' cannot be null
+ERROR - 2025-03-17 08:44:42 --> Column 'id_user' cannot be null
+ERROR - 2025-03-17 09:32:15 --> Column 'id_user' cannot be null
+ERROR - 2025-03-17 10:12:36 --> Column 'id_user' cannot be null
+ERROR - 2025-03-17 10:26:30 --> Column 'id_user' cannot be null
+CRITICAL - 2025-03-17 10:26:30 --> Request URI segment is out of range: 1
+#0 H:\My Drive\CBT\system\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(1)
+#1 H:\My Drive\CBT\app\Views\menu.php(2): CodeIgniter\HTTP\URI->getSegment(1)
+#2 H:\My Drive\CBT\system\View\View.php(210): include('H:\\My Drive\\CBT...')
+#3 H:\My Drive\CBT\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 H:\My Drive\CBT\system\Common.php(1089): CodeIgniter\View\View->render('menu', Array, true)
+#5 H:\My Drive\CBT\app\Controllers\Home.php(30): view('menu')
+#6 H:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#7 H:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 H:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 H:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 H:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\CBT...')
+#11 {main}
+ERROR - 2025-03-17 10:26:56 --> Column 'id_user' cannot be null
+ERROR - 2025-03-17 10:44:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?) '41'' at line 2
+CRITICAL - 2025-03-17 04:12:28 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 G:\My Drive\CBT\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/create')
+#1 G:\My Drive\CBT\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/create')
+#2 G:\My Drive\CBT\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+ERROR - 2025-03-17 16:28:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?) '44'' at line 2
+ERROR - 2025-03-17 16:28:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?) '43'' at line 2
+ERROR - 2025-03-17 16:28:57 --> Column 'id_user' cannot be null
+ERROR - 2025-03-17 16:29:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?) '42'' at line 2
+ERROR - 2025-03-17 16:29:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?) '41'' at line 2
+CRITICAL - 2025-03-17 05:04:06 --> Invalid argument supplied for foreach()
+#0 G:\My Drive\CBT\app\Controllers\Home.php(601): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'G:\\My Drive\\CBT...', 601, Array)
+#1 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->store()
+#2 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+CRITICAL - 2025-03-17 05:25:11 --> You must set the database table to be used with your query.
+#0 G:\My Drive\CBT\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 G:\My Drive\CBT\system\Model.php(722): CodeIgniter\Model->builder()
+#2 G:\My Drive\CBT\app\Controllers\Home.php(584): CodeIgniter\Model->__call('getLeaderboard', Array)
+#3 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->result('48')
+#4 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#8 {main}
+CRITICAL - 2025-03-17 05:27:20 --> Invalid file: result.php
+#0 G:\My Drive\CBT\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('result.php')
+#1 G:\My Drive\CBT\system\Common.php(1089): CodeIgniter\View\View->render('result', Array, true)
+#2 G:\My Drive\CBT\app\Controllers\Home.php(590): view('result', Array)
+#3 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->result('48')
+#4 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#8 {main}
+CRITICAL - 2025-03-17 20:59:35 --> Invalid argument supplied for foreach()
+#0 G:\My Drive\CBT\app\Views\exam_attempts.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'G:\\My Drive\\CBT...', 67, Array)
+#1 G:\My Drive\CBT\system\View\View.php(210): include('G:\\My Drive\\CBT...')
+#2 G:\My Drive\CBT\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 G:\My Drive\CBT\system\Common.php(1089): CodeIgniter\View\View->render('exam_attempts', Array, true)
+#4 G:\My Drive\CBT\app\Controllers\Home.php(1285): view('exam_attempts', Array)
+#5 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->attempts_list('48')
+#6 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#10 {main}
+CRITICAL - 2025-03-17 09:00:55 --> You must set the database table to be used with your query.
+#0 G:\My Drive\CBT\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 G:\My Drive\CBT\system\Model.php(722): CodeIgniter\Model->builder()
+#2 G:\My Drive\CBT\app\Controllers\Home.php(1275): CodeIgniter\Model->__call('getAttemptAnswe...', Array)
+#3 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->attempts_list('48')
+#4 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#8 {main}
+CRITICAL - 2025-03-17 22:18:56 --> Invalid argument supplied for foreach()
+#0 G:\My Drive\CBT\app\Views\exam_attempts.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'G:\\My Drive\\CBT...', 69, Array)
+#1 G:\My Drive\CBT\system\View\View.php(210): include('G:\\My Drive\\CBT...')
+#2 G:\My Drive\CBT\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 G:\My Drive\CBT\system\Common.php(1089): CodeIgniter\View\View->render('exam_attempts', Array, true)
+#4 G:\My Drive\CBT\app\Controllers\Home.php(1285): view('exam_attempts', Array)
+#5 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->attempts_list('48')
+#6 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#10 {main}
+CRITICAL - 2025-03-17 22:21:22 --> Invalid argument supplied for foreach()
+#0 G:\My Drive\CBT\app\Views\exam_attempts.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'G:\\My Drive\\CBT...', 69, Array)
+#1 G:\My Drive\CBT\system\View\View.php(210): include('G:\\My Drive\\CBT...')
+#2 G:\My Drive\CBT\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 G:\My Drive\CBT\system\Common.php(1089): CodeIgniter\View\View->render('exam_attempts', Array, true)
+#4 G:\My Drive\CBT\app\Controllers\Home.php(1285): view('exam_attempts', Array)
+#5 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->attempts_list('48')
+#6 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#10 {main}
+CRITICAL - 2025-03-17 22:22:40 --> Cannot use object of type stdClass as array
+#0 G:\My Drive\CBT\system\View\View.php(210): include()
+#1 G:\My Drive\CBT\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 G:\My Drive\CBT\system\Common.php(1089): CodeIgniter\View\View->render('exam_attempts', Array, true)
+#3 G:\My Drive\CBT\app\Controllers\Home.php(1287): view('exam_attempts', Array)
+#4 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->attempts_list('48')
+#5 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#9 {main}
+ERROR - 2025-03-17 22:26:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?) '47'' at line 2
+CRITICAL - 2025-03-17 11:01:29 --> Invalid argument supplied for foreach()
+#0 G:\My Drive\CBT\app\Controllers\Home.php(942): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'G:\\My Drive\\CBT...', 942, Array)
+#1 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->update()
+#2 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+CRITICAL - 2025-03-17 11:14:16 --> You must set the database table to be used with your query.
+#0 G:\My Drive\CBT\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 G:\My Drive\CBT\system\Model.php(722): CodeIgniter\Model->builder()
+#2 G:\My Drive\CBT\app\Controllers\Home.php(1378): CodeIgniter\Model->__call('countWhere', Array)
+#3 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->submit_essay_correction()
+#4 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#8 {main}
+ERROR - 2025-03-17 23:27:47 --> Column 'id_user' cannot be null
+ERROR - 2025-03-17 11:37:38 --> Unknown column 'question_type' in 'where clause'
+CRITICAL - 2025-03-17 11:37:38 --> Call to a member function getRow() on bool
+#0 G:\My Drive\CBT\app\Controllers\Home.php(573): App\Models\M_belajar->getWhere('question', Array)
+#1 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->result('40')
+#2 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+CRITICAL - 2025-03-17 12:04:03 --> Division by zero
+#0 G:\My Drive\CBT\app\Controllers\Home.php(1374): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zer...', 'G:\\My Drive\\CBT...', 1374, Array)
+#1 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->submit_essay_correction()
+#2 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+CRITICAL - 2025-03-17 19:32:31 --> Call to a member function getWhere() on null
+#0 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->attemptDetails('138')
+#1 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#5 {main}
+CRITICAL - 2025-03-17 19:32:57 --> Attempt to assign property 'question' of non-object
+#0 G:\My Drive\CBT\app\Controllers\Home.php(1321): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to assi...', 'G:\\My Drive\\CBT...', 1321, Array)
+#1 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->attemptDetails('138')
+#2 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+CRITICAL - 2025-03-17 19:36:02 --> Attempt to assign property 'question' of non-object
+#0 G:\My Drive\CBT\app\Controllers\Home.php(1327): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to assi...', 'G:\\My Drive\\CBT...', 1327, Array)
+#1 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->attemptDetails('138')
+#2 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+CRITICAL - 2025-03-17 19:37:41 --> Attempt to assign property 'question' of non-object
+#0 G:\My Drive\CBT\app\Controllers\Home.php(1327): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to assi...', 'G:\\My Drive\\CBT...', 1327, Array)
+#1 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->attemptDetails('138')
+#2 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+CRITICAL - 2025-03-17 19:39:06 --> Attempt to assign property 'question' of non-object
+#0 G:\My Drive\CBT\app\Controllers\Home.php(1329): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to assi...', 'G:\\My Drive\\CBT...', 1329, Array)
+#1 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->attemptDetails('138')
+#2 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+CRITICAL - 2025-03-17 19:39:34 --> Attempt to assign property 'question' of non-object
+#0 G:\My Drive\CBT\app\Controllers\Home.php(1329): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to assi...', 'G:\\My Drive\\CBT...', 1329, Array)
+#1 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->attemptDetails('138')
+#2 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+CRITICAL - 2025-03-17 19:41:49 --> Attempt to assign property 'question' of non-object
+#0 G:\My Drive\CBT\app\Controllers\Home.php(1329): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to assi...', 'G:\\My Drive\\CBT...', 1329, Array)
+#1 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->attemptDetails('138')
+#2 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+CRITICAL - 2025-03-17 19:47:06 --> Attempt to assign property 'question' of non-object
+#0 G:\My Drive\CBT\app\Controllers\Home.php(1329): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to assi...', 'G:\\My Drive\\CBT...', 1329, Array)
+#1 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->attemptDetails('138')
+#2 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+CRITICAL - 2025-03-17 19:49:11 --> Attempt to assign property 'question' of non-object
+#0 G:\My Drive\CBT\app\Controllers\Home.php(1328): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to assi...', 'G:\\My Drive\\CBT...', 1328, Array)
+#1 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->attemptDetails('138')
+#2 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+CRITICAL - 2025-03-17 19:49:43 --> Attempt to assign property 'question' of non-object
+#0 G:\My Drive\CBT\app\Controllers\Home.php(1328): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to assi...', 'G:\\My Drive\\CBT...', 1328, Array)
+#1 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->attemptDetails('138')
+#2 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+CRITICAL - 2025-03-17 19:49:54 --> Attempt to assign property 'question' of non-object
+#0 G:\My Drive\CBT\app\Controllers\Home.php(1328): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to assi...', 'G:\\My Drive\\CBT...', 1328, Array)
+#1 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->attemptDetails('138')
+#2 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+CRITICAL - 2025-03-17 19:50:29 --> Attempt to assign property 'id_question' of non-object
+#0 G:\My Drive\CBT\app\Controllers\Home.php(1328): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to assi...', 'G:\\My Drive\\CBT...', 1328, Array)
+#1 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->attemptDetails('138')
+#2 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+CRITICAL - 2025-03-17 19:51:25 --> syntax error, unexpected '$data' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 G:\My Drive\CBT\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/attemptDet...')
+#1 G:\My Drive\CBT\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/attemptDet...')
+#2 G:\My Drive\CBT\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+CRITICAL - 2025-03-17 19:51:37 --> Attempt to assign property 'question' of non-object
+#0 G:\My Drive\CBT\app\Controllers\Home.php(1328): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to assi...', 'G:\\My Drive\\CBT...', 1328, Array)
+#1 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->attemptDetails('138')
+#2 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+CRITICAL - 2025-03-17 19:54:02 --> Attempt to assign property 'question' of non-object
+#0 G:\My Drive\CBT\app\Controllers\Home.php(1334): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to assi...', 'G:\\My Drive\\CBT...', 1334, Array)
+#1 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->attemptDetails('138')
+#2 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+CRITICAL - 2025-03-17 20:15:33 --> You must set the database table to be used with your query.
+#0 G:\My Drive\CBT\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 G:\My Drive\CBT\system\Model.php(722): CodeIgniter\Model->builder()
+#2 G:\My Drive\CBT\app\Controllers\Home.php(341): CodeIgniter\Model->__call('getUserAttempts...', Array)
+#3 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->detail('40')
+#4 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#8 {main}
+CRITICAL - 2025-03-17 20:22:03 --> Invalid argument supplied for foreach()
+#0 G:\My Drive\CBT\app\Views\attempt_details.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'G:\\My Drive\\CBT...', 28, Array)
+#1 G:\My Drive\CBT\system\View\View.php(210): include('G:\\My Drive\\CBT...')
+#2 G:\My Drive\CBT\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 G:\My Drive\CBT\system\Common.php(1089): CodeIgniter\View\View->render('attempt_details', Array, true)
+#4 G:\My Drive\CBT\app\Controllers\Home.php(1337): view('attempt_details', Array)
+#5 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->attemptDetails('138')
+#6 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#10 {main}
+CRITICAL - 2025-03-17 20:25:13 --> Invalid argument supplied for foreach()
+#0 G:\My Drive\CBT\app\Views\attempt_details.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'G:\\My Drive\\CBT...', 28, Array)
+#1 G:\My Drive\CBT\system\View\View.php(210): include('G:\\My Drive\\CBT...')
+#2 G:\My Drive\CBT\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 G:\My Drive\CBT\system\Common.php(1089): CodeIgniter\View\View->render('attempt_details', Array, true)
+#4 G:\My Drive\CBT\app\Controllers\Home.php(1349): view('attempt_details', Array)
+#5 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->attemptDetails('138')
+#6 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#10 {main}
+CRITICAL - 2025-03-17 21:04:58 --> Attempt to assign property 'options' of non-object
+#0 G:\My Drive\CBT\app\Controllers\Home.php(1338): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to assi...', 'G:\\My Drive\\CBT...', 1338, Array)
+#1 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->attemptDetails('163')
+#2 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+CRITICAL - 2025-03-17 21:07:04 --> A non-numeric value encountered
+#0 G:\My Drive\CBT\app\Views\attempt_details.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'G:\\My Drive\\CBT...', 37, Array)
+#1 G:\My Drive\CBT\system\View\View.php(210): include('G:\\My Drive\\CBT...')
+#2 G:\My Drive\CBT\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 G:\My Drive\CBT\system\Common.php(1089): CodeIgniter\View\View->render('attempt_details', Array, true)
+#4 G:\My Drive\CBT\app\Controllers\Home.php(1365): view('attempt_details', Array)
+#5 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->attemptDetails('163')
+#6 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#10 {main}
+CRITICAL - 2025-03-17 21:20:43 --> Invalid file: extra_view.php
+#0 G:\My Drive\CBT\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('extra_view.php')
+#1 G:\My Drive\CBT\system\Common.php(1089): CodeIgniter\View\View->render('extra_view', Array, true)
+#2 G:\My Drive\CBT\app\Views\attempt_details.php(15): view('extra_view')
+#3 G:\My Drive\CBT\system\View\View.php(210): include('G:\\My Drive\\CBT...')
+#4 G:\My Drive\CBT\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 G:\My Drive\CBT\system\Common.php(1089): CodeIgniter\View\View->render('attempt_details', Array, true)
+#6 G:\My Drive\CBT\app\Controllers\Home.php(1348): view('attempt_details', Array)
+#7 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->attemptDetails('163')
+#8 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#12 {main}
+CRITICAL - 2025-03-17 21:55:22 --> syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF)
+#0 G:\My Drive\CBT\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 G:\My Drive\CBT\system\Common.php(1089): CodeIgniter\View\View->render('exam_result', Array, true)
+#2 G:\My Drive\CBT\app\Controllers\Home.php(589): view('exam_result', Array)
+#3 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->result('40')
+#4 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#8 {main}
+CRITICAL - 2025-03-17 22:28:09 --> Attempt to read property "exam_score" on array
+#0 H:\My Drive\CBT\app\Views\exam_result.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'H:\\My Drive\\CBT...', 75)
+#1 H:\My Drive\CBT\system\View\View.php(210): include('H:\\My Drive\\CBT...')
+#2 H:\My Drive\CBT\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 H:\My Drive\CBT\system\Common.php(1089): CodeIgniter\View\View->render('exam_result', Array, true)
+#4 H:\My Drive\CBT\app\Controllers\Home.php(586): view('exam_result', Array)
+#5 H:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->result('48')
+#6 H:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 H:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 H:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 H:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\CBT...')
+#10 {main}
+CRITICAL - 2025-03-17 22:29:58 --> Attempt to read property "exam_score" on array
+#0 H:\My Drive\CBT\app\Views\exam_result.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'H:\\My Drive\\CBT...', 75)
+#1 H:\My Drive\CBT\system\View\View.php(210): include('H:\\My Drive\\CBT...')
+#2 H:\My Drive\CBT\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 H:\My Drive\CBT\system\Common.php(1089): CodeIgniter\View\View->render('exam_result', Array, true)
+#4 H:\My Drive\CBT\app\Controllers\Home.php(586): view('exam_result', Array)
+#5 H:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->result('48')
+#6 H:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 H:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 H:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 H:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\CBT...')
+#10 {main}

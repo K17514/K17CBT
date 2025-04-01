@@ -1,0 +1,50 @@
+ERROR - 2025-03-18 00:40:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?) '49'' at line 2
+CRITICAL - 2025-03-18 07:14:24 --> Invalid argument supplied for foreach()
+#0 G:\My Drive\CBT\app\Views\detail-page.php(145): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'G:\\My Drive\\CBT...', 145, Array)
+#1 G:\My Drive\CBT\system\View\View.php(210): include('G:\\My Drive\\CBT...')
+#2 G:\My Drive\CBT\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 G:\My Drive\CBT\system\Common.php(1089): CodeIgniter\View\View->render('detail-page', Array, true)
+#4 G:\My Drive\CBT\app\Controllers\Home.php(351): view('detail-page', Array)
+#5 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->detail('40')
+#6 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#10 {main}
+CRITICAL - 2025-03-18 07:15:15 --> Invalid argument supplied for foreach()
+#0 G:\My Drive\CBT\app\Views\detail-page.php(146): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'G:\\My Drive\\CBT...', 146, Array)
+#1 G:\My Drive\CBT\system\View\View.php(210): include('G:\\My Drive\\CBT...')
+#2 G:\My Drive\CBT\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 G:\My Drive\CBT\system\Common.php(1089): CodeIgniter\View\View->render('detail-page', Array, true)
+#4 G:\My Drive\CBT\app\Controllers\Home.php(351): view('detail-page', Array)
+#5 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->detail('40')
+#6 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#10 {main}
+CRITICAL - 2025-03-18 09:32:25 --> file_get_contents(): SSL: An existing connection was forcibly closed by the remote host.
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'G:\\My Drive\\CBT...', 279, Array)
+#1 G:\My Drive\CBT\app\Models\M_belajar.php(279): file_get_contents('https://api.ipi...')
+#2 G:\My Drive\CBT\app\Controllers\Home.php(27): App\Models\M_belajar->log_activity('14', 'User accessed h...')
+#3 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#8 {main}
+CRITICAL - 2025-03-18 09:33:32 --> file_get_contents(): SSL: An existing connection was forcibly closed by the remote host.
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'G:\\My Drive\\CBT...', 279, Array)
+#1 G:\My Drive\CBT\app\Models\M_belajar.php(279): file_get_contents('https://api.ipi...')
+#2 G:\My Drive\CBT\app\Controllers\Home.php(321): App\Models\M_belajar->log_activity('14', 'User Accessed L...')
+#3 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->listing('17')
+#4 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#8 {main}
+ERROR - 2025-03-18 10:03:43 --> Column 'id_user' cannot be null
+ERROR - 2025-03-18 10:20:30 --> Column 'id_user' cannot be null
+ERROR - 2025-03-18 10:20:38 --> Column 'id_user' cannot be null

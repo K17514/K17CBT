@@ -1,0 +1,48 @@
+CRITICAL - 2025-03-16 02:43:33 --> Invalid argument supplied for foreach()
+#0 G:\My Drive\CBT\app\Controllers\Home.php(589): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'G:\\My Drive\\CBT...', 589, Array)
+#1 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->store()
+#2 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+ERROR - 2025-03-16 14:46:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?) '38'' at line 2
+CRITICAL - 2025-03-16 05:50:12 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 G:\My Drive\CBT\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/detail/39')
+#1 G:\My Drive\CBT\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/detail/39')
+#2 G:\My Drive\CBT\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+ERROR - 2025-03-16 22:40:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, `happens_at`) VALUES ('14', 'User accessed Feature testing', '139.194.44.1...' at line 1
+ERROR - 2025-03-16 22:40:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, `happens_at`) VALUES ('14', 'User accessed home page.', '139.194.44.187', ...' at line 1
+ERROR - 2025-03-16 22:41:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' `happens_at`) VALUES ('14', 'User accessed home page.', '139.194.44.187', '2...' at line 1
+ERROR - 2025-03-16 22:41:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' `happens_at`) VALUES ('14', 'User accessed home page.', '139.194.44.187', '2...' at line 1
+ERROR - 2025-03-16 22:41:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' `happens_at`) VALUES ('14', 'User visitted course list', '139.194.44.187', '...' at line 1
+ERROR - 2025-03-16 22:41:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' `happens_at`) VALUES ('14', 'User Accessed Listing Page', '139.194.44.187', ...' at line 1
+ERROR - 2025-03-16 22:41:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' `happens_at`) VALUES ('14', 'User accessed Feature testing', '139.194.44.187...' at line 1
+ERROR - 2025-03-16 22:42:29 --> Column 'id_user' cannot be null
+ERROR - 2025-03-16 23:17:10 --> Column 'id_user' cannot be null
+ERROR - 2025-03-16 23:20:26 --> Column 'id_user' cannot be null
+ERROR - 2025-03-16 22:10:49 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2025-03-16 22:10:49 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 H:\My Drive\CBT\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 H:\My Drive\CBT\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 H:\My Drive\CBT\app\Models\M_belajar.php(349): CodeIgniter\Database\BaseBuilder->get()
+#3 H:\My Drive\CBT\app\Controllers\Home.php(15): App\Models\M_belajar->getWebDetails()
+#4 H:\My Drive\CBT\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#5 H:\My Drive\CBT\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 H:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 H:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 H:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\CBT...')
+#9 {main}
+CRITICAL - 2025-03-16 22:51:04 --> Undefined variable $id_user
+#0 H:\My Drive\CBT\app\Controllers\admin.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'H:\\My Drive\\CBT...', 29)
+#1 H:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Admin->settings()
+#2 H:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 H:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\CBT...')
+#6 {main}

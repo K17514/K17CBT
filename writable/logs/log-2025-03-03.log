@@ -1,0 +1,55 @@
+CRITICAL - 2025-03-03 00:32:16 --> count(): Parameter must be an array or an object that implements Countable
+#0 G:\My Drive\CBT\app\Views\listing-page.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'G:\\My Drive\\CBT...', 156, Array)
+#1 G:\My Drive\CBT\system\View\View.php(210): include('G:\\My Drive\\CBT...')
+#2 G:\My Drive\CBT\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 G:\My Drive\CBT\system\Common.php(1089): CodeIgniter\View\View->render('listing-page', Array, true)
+#4 G:\My Drive\CBT\app\Controllers\Home.php(263): view('listing-page', Array)
+#5 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->listing()
+#6 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#10 {main}
+CRITICAL - 2025-03-03 00:33:39 --> count(): Parameter must be an array or an object that implements Countable
+#0 G:\My Drive\CBT\app\Views\listing-page.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'G:\\My Drive\\CBT...', 156, Array)
+#1 G:\My Drive\CBT\system\View\View.php(210): include('G:\\My Drive\\CBT...')
+#2 G:\My Drive\CBT\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 G:\My Drive\CBT\system\Common.php(1089): CodeIgniter\View\View->render('listing-page', Array, true)
+#4 G:\My Drive\CBT\app\Controllers\Home.php(263): view('listing-page', Array)
+#5 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->listing()
+#6 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#10 {main}
+CRITICAL - 2025-03-03 06:58:54 --> Cannot use object of type stdClass as array
+#0 G:\My Drive\CBT\system\View\View.php(210): include()
+#1 G:\My Drive\CBT\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 G:\My Drive\CBT\system\Common.php(1089): CodeIgniter\View\View->render('edit', Array, true)
+#3 G:\My Drive\CBT\app\Controllers\Home.php(592): view('edit', Array)
+#4 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->edit('6')
+#5 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#9 {main}
+CRITICAL - 2025-03-03 07:18:05 --> Call to a member function hapus() on null
+#0 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->delete('6')
+#1 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#5 {main}
+ERROR - 2025-03-03 21:17:41 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2025-03-03 21:17:42 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 H:\My Drive\CBT\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 H:\My Drive\CBT\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 H:\My Drive\CBT\app\Models\M_belajar.php(103): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 H:\My Drive\CBT\app\Controllers\Home.php(48): App\Models\M_belajar->getWhere('user', Array)
+#4 H:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#5 H:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 H:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 H:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 H:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\CBT...')
+#9 {main}

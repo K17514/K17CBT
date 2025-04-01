@@ -1,0 +1,333 @@
+CRITICAL - 2025-03-10 09:28:50 --> You must set the database table to be used with your query.
+#0 G:\My Drive\CBT\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 G:\My Drive\CBT\system\Model.php(722): CodeIgniter\Model->builder()
+#2 G:\My Drive\CBT\app\Controllers\Home.php(468): CodeIgniter\Model->__call('inputBatch', Array)
+#3 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->submit()
+#4 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#8 {main}
+CRITICAL - 2025-03-10 09:28:55 --> You must set the database table to be used with your query.
+#0 G:\My Drive\CBT\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 G:\My Drive\CBT\system\Model.php(722): CodeIgniter\Model->builder()
+#2 G:\My Drive\CBT\app\Controllers\Home.php(468): CodeIgniter\Model->__call('inputBatch', Array)
+#3 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->submit()
+#4 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#8 {main}
+CRITICAL - 2025-03-10 09:29:02 --> You must set the database table to be used with your query.
+#0 G:\My Drive\CBT\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 G:\My Drive\CBT\system\Model.php(722): CodeIgniter\Model->builder()
+#2 G:\My Drive\CBT\app\Controllers\Home.php(468): CodeIgniter\Model->__call('inputBatch', Array)
+#3 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->submit()
+#4 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#8 {main}
+CRITICAL - 2025-03-10 09:29:09 --> You must set the database table to be used with your query.
+#0 G:\My Drive\CBT\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 G:\My Drive\CBT\system\Model.php(722): CodeIgniter\Model->builder()
+#2 G:\My Drive\CBT\app\Controllers\Home.php(468): CodeIgniter\Model->__call('inputBatch', Array)
+#3 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->submit()
+#4 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#8 {main}
+CRITICAL - 2025-03-10 09:29:15 --> You must set the database table to be used with your query.
+#0 G:\My Drive\CBT\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 G:\My Drive\CBT\system\Model.php(722): CodeIgniter\Model->builder()
+#2 G:\My Drive\CBT\app\Controllers\Home.php(468): CodeIgniter\Model->__call('inputBatch', Array)
+#3 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->submit()
+#4 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#8 {main}
+CRITICAL - 2025-03-10 09:29:20 --> You must set the database table to be used with your query.
+#0 G:\My Drive\CBT\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 G:\My Drive\CBT\system\Model.php(722): CodeIgniter\Model->builder()
+#2 G:\My Drive\CBT\app\Controllers\Home.php(468): CodeIgniter\Model->__call('inputBatch', Array)
+#3 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->submit()
+#4 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#8 {main}
+CRITICAL - 2025-03-10 09:29:26 --> You must set the database table to be used with your query.
+#0 G:\My Drive\CBT\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 G:\My Drive\CBT\system\Model.php(722): CodeIgniter\Model->builder()
+#2 G:\My Drive\CBT\app\Controllers\Home.php(468): CodeIgniter\Model->__call('inputBatch', Array)
+#3 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->submit()
+#4 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#8 {main}
+CRITICAL - 2025-03-10 09:29:31 --> You must set the database table to be used with your query.
+#0 G:\My Drive\CBT\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 G:\My Drive\CBT\system\Model.php(722): CodeIgniter\Model->builder()
+#2 G:\My Drive\CBT\app\Controllers\Home.php(468): CodeIgniter\Model->__call('inputBatch', Array)
+#3 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->submit()
+#4 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#8 {main}
+CRITICAL - 2025-03-10 09:29:36 --> You must set the database table to be used with your query.
+#0 G:\My Drive\CBT\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 G:\My Drive\CBT\system\Model.php(722): CodeIgniter\Model->builder()
+#2 G:\My Drive\CBT\app\Controllers\Home.php(468): CodeIgniter\Model->__call('inputBatch', Array)
+#3 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->submit()
+#4 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#8 {main}
+CRITICAL - 2025-03-10 09:29:42 --> You must set the database table to be used with your query.
+#0 G:\My Drive\CBT\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 G:\My Drive\CBT\system\Model.php(722): CodeIgniter\Model->builder()
+#2 G:\My Drive\CBT\app\Controllers\Home.php(468): CodeIgniter\Model->__call('inputBatch', Array)
+#3 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->submit()
+#4 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#8 {main}
+CRITICAL - 2025-03-10 09:29:48 --> You must set the database table to be used with your query.
+#0 G:\My Drive\CBT\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 G:\My Drive\CBT\system\Model.php(722): CodeIgniter\Model->builder()
+#2 G:\My Drive\CBT\app\Controllers\Home.php(468): CodeIgniter\Model->__call('inputBatch', Array)
+#3 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->submit()
+#4 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#8 {main}
+CRITICAL - 2025-03-10 09:29:54 --> You must set the database table to be used with your query.
+#0 G:\My Drive\CBT\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 G:\My Drive\CBT\system\Model.php(722): CodeIgniter\Model->builder()
+#2 G:\My Drive\CBT\app\Controllers\Home.php(468): CodeIgniter\Model->__call('inputBatch', Array)
+#3 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->submit()
+#4 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#8 {main}
+CRITICAL - 2025-03-10 09:29:59 --> You must set the database table to be used with your query.
+#0 G:\My Drive\CBT\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 G:\My Drive\CBT\system\Model.php(722): CodeIgniter\Model->builder()
+#2 G:\My Drive\CBT\app\Controllers\Home.php(468): CodeIgniter\Model->__call('inputBatch', Array)
+#3 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->submit()
+#4 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#8 {main}
+CRITICAL - 2025-03-10 09:30:04 --> You must set the database table to be used with your query.
+#0 G:\My Drive\CBT\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 G:\My Drive\CBT\system\Model.php(722): CodeIgniter\Model->builder()
+#2 G:\My Drive\CBT\app\Controllers\Home.php(468): CodeIgniter\Model->__call('inputBatch', Array)
+#3 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->submit()
+#4 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#8 {main}
+CRITICAL - 2025-03-10 09:30:08 --> You must set the database table to be used with your query.
+#0 G:\My Drive\CBT\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 G:\My Drive\CBT\system\Model.php(722): CodeIgniter\Model->builder()
+#2 G:\My Drive\CBT\app\Controllers\Home.php(468): CodeIgniter\Model->__call('inputBatch', Array)
+#3 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->submit()
+#4 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#8 {main}
+ERROR - 2025-03-10 09:48:04 --> Unknown column 'id_detail' in 'where clause'
+CRITICAL - 2025-03-10 09:48:04 --> Call to a member function getResult() on bool
+#0 G:\My Drive\CBT\app\Controllers\Home.php(454): App\Models\M_belajar->getWhereOpt('exam_attempts', Array, false)
+#1 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->submit()
+#2 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+CRITICAL - 2025-03-10 07:28:31 --> Too few arguments to function App\Models\M_belajar::filter(), 4 passed in G:\My Drive\CBT\app\Controllers\Home.php on line 1092 and exactly 8 expected
+#0 G:\My Drive\CBT\app\Controllers\Home.php(1092): App\Models\M_belajar->filter('exam_attempts', 'exam_detail', 'exam_detail.id_...', Array)
+#1 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->laporan_attempt()
+#2 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+CRITICAL - 2025-03-10 07:33:58 --> Invalid file: laporan_nilai.php
+#0 G:\My Drive\CBT\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('laporan_nilai.p...')
+#1 G:\My Drive\CBT\system\Common.php(1089): CodeIgniter\View\View->render('laporan_nilai', Array, true)
+#2 G:\My Drive\CBT\app\Controllers\Home.php(1105): view('laporan_nilai', Array)
+#3 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->laporan_attempt()
+#4 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#8 {main}
+CRITICAL - 2025-03-10 10:41:38 --> Invalid argument supplied for foreach()
+#0 G:\My Drive\CBT\app\Views\laporan_attempt.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'G:\\My Drive\\CBT...', 9, Array)
+#1 G:\My Drive\CBT\system\View\View.php(210): include('G:\\My Drive\\CBT...')
+#2 G:\My Drive\CBT\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 G:\My Drive\CBT\system\Common.php(1089): CodeIgniter\View\View->render('laporan_attempt', Array, true)
+#4 G:\My Drive\CBT\app\Controllers\Home.php(1093): view('laporan_attempt', Array)
+#5 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->laporan_attempt()
+#6 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#10 {main}
+CRITICAL - 2025-03-10 10:56:43 --> syntax error, unexpected '<', expecting function (T_FUNCTION) or const (T_CONST)
+#0 G:\My Drive\CBT\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/attempts_l...')
+#1 G:\My Drive\CBT\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/attempts_l...')
+#2 G:\My Drive\CBT\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+CRITICAL - 2025-03-10 10:57:50 --> syntax error, unexpected '}', expecting end of file
+#0 G:\My Drive\CBT\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/attempts_l...')
+#1 G:\My Drive\CBT\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/attempts_l...')
+#2 G:\My Drive\CBT\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+CRITICAL - 2025-03-10 12:26:09 --> Argument 2 passed to view() must be of the type array, null given, called in G:\My Drive\CBT\app\Controllers\Home.php on line 1143
+#0 G:\My Drive\CBT\app\Controllers\Home.php(1143): view('header', NULL)
+#1 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->edit_attempt('110')
+#2 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+CRITICAL - 2025-03-10 12:38:45 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 G:\My Drive\CBT\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('G:\\My Drive\\CBT...')
+#1 G:\My Drive\CBT\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_be...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_be...')
+#3 G:\My Drive\CBT\app\Controllers\Home.php(14): spl_autoload_call('App\\Models\\M_be...')
+#4 G:\My Drive\CBT\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#5 G:\My Drive\CBT\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#9 {main}
+CRITICAL - 2025-03-10 19:56:11 --> syntax error, unexpected 'null' (T_STRING), expecting ']'
+#0 G:\My Drive\CBT\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/allcoursev...')
+#1 G:\My Drive\CBT\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/allcoursev...')
+#2 G:\My Drive\CBT\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+ERROR - 2025-03-10 20:06:43 --> Table 'cbt.answer' doesn't exist
+CRITICAL - 2025-03-10 20:06:43 --> Call to a member function getRow() on bool
+#0 G:\My Drive\CBT\app\Controllers\admin.php(133): App\Models\M_belajar->getWhere('answer', Array)
+#1 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Admin->deleted_data()
+#2 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+CRITICAL - 2025-03-10 20:08:15 --> Invalid file: deleted_data.php
+#0 G:\My Drive\CBT\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('deleted_data.ph...')
+#1 G:\My Drive\CBT\system\Common.php(1089): CodeIgniter\View\View->render('deleted_data', Array, true)
+#2 G:\My Drive\CBT\app\Controllers\admin.php(139): view('deleted_data', Array)
+#3 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Admin->deleted_data()
+#4 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#8 {main}
+CRITICAL - 2025-03-10 20:08:30 --> Invalid file: admin/deleted_data.php
+#0 G:\My Drive\CBT\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/deleted_d...')
+#1 G:\My Drive\CBT\system\Common.php(1089): CodeIgniter\View\View->render('admin/deleted_d...', Array, true)
+#2 G:\My Drive\CBT\app\Controllers\admin.php(139): view('admin/deleted_d...', Array)
+#3 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Admin->deleted_data()
+#4 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#8 {main}
+CRITICAL - 2025-03-10 20:24:19 --> syntax error, unexpected '<', expecting end of file
+#0 G:\My Drive\CBT\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 G:\My Drive\CBT\system\Common.php(1089): CodeIgniter\View\View->render('admin/deleted_d...', Array, true)
+#2 G:\My Drive\CBT\app\Controllers\admin.php(140): view('admin/deleted_d...', Array)
+#3 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Admin->deleted_data()
+#4 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#8 {main}
+ERROR - 2025-03-10 21:10:30 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2025-03-10 21:12:55 --> Call to a member function edit() on null
+#0 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Admin->restore()
+#1 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#5 {main}
+CRITICAL - 2025-03-10 21:23:15 --> Division by zero
+#0 G:\My Drive\CBT\app\Views\allcourseview.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zer...', 'G:\\My Drive\\CBT...', 13, Array)
+#1 G:\My Drive\CBT\system\View\View.php(210): include('G:\\My Drive\\CBT...')
+#2 G:\My Drive\CBT\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 G:\My Drive\CBT\system\Common.php(1089): CodeIgniter\View\View->render('allcourseview', Array, true)
+#4 G:\My Drive\CBT\app\Controllers\Home.php(951): view('allcourseview', Array)
+#5 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->allcourseview()
+#6 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#10 {main}
+CRITICAL - 2025-03-10 21:30:35 --> Too few arguments to function App\Models\M_belajar::joinwc(), 3 passed in G:\My Drive\CBT\app\Controllers\Home.php on line 950 and exactly 4 expected
+#0 G:\My Drive\CBT\app\Controllers\Home.php(950): App\Models\M_belajar->joinwc('course', 'user', 'course.id_user ...')
+#1 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->allcourseview()
+#2 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+CRITICAL - 2025-03-10 21:32:31 --> Too few arguments to function App\Models\M_belajar::joinw(), 4 passed in G:\My Drive\CBT\app\Controllers\Home.php on line 300 and exactly 5 expected
+#0 G:\My Drive\CBT\app\Controllers\Home.php(300): App\Models\M_belajar->joinw('user', 'course', 'course.id_user ...', Array)
+#1 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->listing('14')
+#2 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+CRITICAL - 2025-03-10 22:10:51 --> Request URI segment is out of range: 1
+#0 H:\My Drive\CBT\system\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(1)
+#1 H:\My Drive\CBT\app\Views\menu.php(2): CodeIgniter\HTTP\URI->getSegment(1)
+#2 H:\My Drive\CBT\system\View\View.php(210): include('H:\\My Drive\\CBT...')
+#3 H:\My Drive\CBT\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 H:\My Drive\CBT\system\Common.php(1089): CodeIgniter\View\View->render('menu', Array, true)
+#5 H:\My Drive\CBT\app\Controllers\Home.php(28): view('menu')
+#6 H:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#7 H:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 H:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 H:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 H:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\CBT...')
+#11 {main}
+CRITICAL - 2025-03-10 22:10:58 --> Request URI segment is out of range: 1
+#0 H:\My Drive\CBT\system\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(1)
+#1 H:\My Drive\CBT\app\Views\menu.php(2): CodeIgniter\HTTP\URI->getSegment(1)
+#2 H:\My Drive\CBT\system\View\View.php(210): include('H:\\My Drive\\CBT...')
+#3 H:\My Drive\CBT\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 H:\My Drive\CBT\system\Common.php(1089): CodeIgniter\View\View->render('menu', Array, true)
+#5 H:\My Drive\CBT\app\Controllers\Home.php(28): view('menu')
+#6 H:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#7 H:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 H:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 H:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 H:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\CBT...')
+#11 {main}

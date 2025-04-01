@@ -1,0 +1,20 @@
+CRITICAL - 2025-02-22 01:39:53 --> syntax error, unexpected '?>', expecting ')'
+#0 C:\Users\redmibook\Videos\CBT\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\Users\redmibook\Videos\CBT\system\Common.php(1089): CodeIgniter\View\View->render('profile', Array, true)
+#2 C:\Users\redmibook\Videos\CBT\app\Controllers\Home.php(301): view('profile')
+#3 C:\Users\redmibook\Videos\CBT\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#4 C:\Users\redmibook\Videos\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\redmibook\Videos\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\redmibook\Videos\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\redmibook\Videos\CBT\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#8 {main}
+CRITICAL - 2025-02-22 21:00:32 --> You must set the database table to be used with your query.
+#0 C:\Users\redmibook\Videos\CBT\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\Users\redmibook\Videos\CBT\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\Users\redmibook\Videos\CBT\app\Controllers\Home.php(537): CodeIgniter\Model->__call('get_where', Array)
+#3 C:\Users\redmibook\Videos\CBT\system\CodeIgniter.php(832): App\Controllers\Home->change_pass()
+#4 C:\Users\redmibook\Videos\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\redmibook\Videos\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\redmibook\Videos\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\redmibook\Videos\CBT\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#8 {main}

@@ -1,0 +1,20 @@
+CRITICAL - 2025-03-05 10:33:59 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::insert()
+#0 G:\My Drive\CBT\app\Controllers\Home.php(77): App\Models\M_belajar->log_activity('7', 'User logged in')
+#1 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#2 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+ERROR - 2025-03-05 10:36:04 --> Unknown column 'activity' in 'field list'
+ERROR - 2025-03-05 10:39:45 --> Column 'id_user' cannot be null
+ERROR - 2025-03-05 23:41:37 --> Column 'id_user' cannot be null
+ERROR - 2025-03-05 12:13:04 --> Table 'cbt.log_activity' doesn't exist
+ERROR - 2025-03-05 12:14:15 --> Table 'cbt.log_activity' doesn't exist
+ERROR - 2025-03-05 12:16:21 --> Table 'cbt.log_activity' doesn't exist
+ERROR - 2025-03-05 12:17:01 --> Table 'cbt.log_activity' doesn't exist
+ERROR - 2025-03-05 12:20:09 --> Table 'cbt.log_activity' doesn't exist
+ERROR - 2025-03-05 12:25:18 --> Table 'cbt.log_activity' doesn't exist
+ERROR - 2025-03-05 12:26:30 --> Table 'cbt.log_activity' doesn't exist
+ERROR - 2025-03-05 12:28:41 --> Table 'cbt.log_activity' doesn't exist
+ERROR - 2025-03-05 12:31:38 --> Table 'cbt.log_activity' doesn't exist

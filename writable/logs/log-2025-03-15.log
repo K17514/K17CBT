@@ -1,0 +1,61 @@
+CRITICAL - 2025-03-15 23:32:15 --> Cannot redeclare getUserById() (previously declared in G:\My Drive\CBT\app\Views\courseview.php:183)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-03-15 23:33:05 --> Cannot redeclare getUserById() (previously declared in G:\My Drive\CBT\app\Views\courseview.php:178)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-03-15 11:35:05 --> Call to a member function getUsernameById() on null
+#0 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->courseview()
+#1 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#5 {main}
+CRITICAL - 2025-03-15 23:02:29 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 G:\My Drive\CBT\app\Controllers\Home.php(1192): App\Models\M_belajar->getAttemptsResults('29')
+#1 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->attempts_list('29')
+#2 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+CRITICAL - 2025-03-15 23:05:10 --> You must set the database table to be used with your query.
+#0 G:\My Drive\CBT\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 G:\My Drive\CBT\system\Model.php(722): CodeIgniter\Model->builder()
+#2 G:\My Drive\CBT\app\Controllers\Home.php(1192): CodeIgniter\Model->__call('getAttemptsResu...', Array)
+#3 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->attempts_list('29')
+#4 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#8 {main}
+CRITICAL - 2025-03-15 23:06:08 --> You must set the database table to be used with your query.
+#0 G:\My Drive\CBT\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 G:\My Drive\CBT\system\Model.php(722): CodeIgniter\Model->builder()
+#2 G:\My Drive\CBT\app\Controllers\Home.php(1192): CodeIgniter\Model->__call('getAttemptsResu...', Array)
+#3 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->attempts_list('29')
+#4 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#8 {main}
+CRITICAL - 2025-03-15 23:06:34 --> You must set the database table to be used with your query.
+#0 G:\My Drive\CBT\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 G:\My Drive\CBT\system\Model.php(722): CodeIgniter\Model->builder()
+#2 G:\My Drive\CBT\app\Controllers\Home.php(1192): CodeIgniter\Model->__call('getAttemptsResu...', Array)
+#3 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->attempts_list('29')
+#4 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#8 {main}
+CRITICAL - 2025-03-15 23:07:09 --> You must set the database table to be used with your query.
+#0 G:\My Drive\CBT\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 G:\My Drive\CBT\system\Model.php(722): CodeIgniter\Model->builder()
+#2 G:\My Drive\CBT\app\Controllers\Home.php(1192): CodeIgniter\Model->__call('getAttemptsResu...', Array)
+#3 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->attempts_list('29')
+#4 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#8 {main}

@@ -1,0 +1,22 @@
+ERROR - 2025-03-13 00:10:30 --> Unknown column 'created_at' in 'field list'
+ERROR - 2025-03-13 07:55:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?) '33'' at line 2
+CRITICAL - 2025-03-13 04:32:05 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 G:\My Drive\CBT\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/index')
+#1 G:\My Drive\CBT\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/index')
+#2 G:\My Drive\CBT\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#6 {main}
+ERROR - 2025-03-13 16:33:41 --> Column 'id_user' cannot be null
+ERROR - 2025-03-13 16:35:49 --> Column 'id_user' cannot be null
+ERROR - 2025-03-13 16:37:58 --> Column 'id_user' cannot be null
+ERROR - 2025-03-13 16:41:18 --> Column 'id_user' cannot be null
+CRITICAL - 2025-03-13 04:41:46 --> Object of class App\Controllers\Home could not be converted to string
+#0 G:\My Drive\CBT\system\CodeIgniter.php(832): App\Controllers\Home->store()
+#1 G:\My Drive\CBT\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\CBT\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\CBT\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\CBT\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\CBT...')
+#5 {main}
+ERROR - 2025-03-13 16:42:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?) '36'' at line 2
