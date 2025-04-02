@@ -102,7 +102,7 @@ public function aksi_register()
 
     $username = $this->request->getPost('username');
     $email = $this->request->getPost('email');
-    $password = MD5($this->request->getPost('password'));
+    $password = MD5($this->request->getPost('pass'));
 
     // Check if email or username already exists
     $existingUser = $this->model->getWhere('user', ['email' => $email]);
