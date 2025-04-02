@@ -191,7 +191,7 @@ public function forgot_password()
         $mail->Host       = 'smtp.gmail.com';   // Your SMTP server
         $mail->SMTPAuth   = true;
         $mail->Username   = 'ryukusune@gmail.com';  // Your email
-        $mail->Password   = 'jlgp wctt gagd vaxg';    // App password (NOT your real email password)
+        $mail->Password   = 'wfsa qhmt mvrg tvwu';    // App password (NOT your real email password)
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; 
         $mail->Port       = 587; 
 
